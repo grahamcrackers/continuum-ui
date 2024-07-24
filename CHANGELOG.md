@@ -1,4 +1,4 @@
-# @grahamcrackers/components
+# @continuum-ui/components
 
 ## 0.1.3
 

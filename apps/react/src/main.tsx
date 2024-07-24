@@ -5,7 +5,7 @@ import App from "./App.tsx";
 
 import "./index.css";
 
-import { ThemeProvider } from "@grahamcrackers/components";
+import { ThemeProvider } from "@continuum-ui/components";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
     <React.StrictMode>

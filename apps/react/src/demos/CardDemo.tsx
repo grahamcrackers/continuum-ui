@@ -1,6 +1,6 @@
 
 
-import { Button } from "@grahamcrackers/components/button"
+import { Button } from "@continuum-ui/components/button"
 import {
   Card,
   CardContent,
@@ -8,16 +8,16 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@grahamcrackers/components/card"
-import { Input } from "@grahamcrackers/components/input"
-import { Label } from "@grahamcrackers/components/label"
+} from "@continuum-ui/components/card"
+import { Input } from "@continuum-ui/components/input"
+import { Label } from "@continuum-ui/components/label"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@grahamcrackers/components/select"
+} from "@continuum-ui/components/select"
 
 export function CardDemo() {
   return (

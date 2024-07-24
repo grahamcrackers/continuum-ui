@@ -1,6 +1,6 @@
-# @grahamcrackers/components
+# @continuum-ui
 
-![NPM Version](https://img.shields.io/npm/v/@grahamcrackers/components)
+![NPM Version](https://img.shields.io/npm/v/@continuum-ui/components)
 
 An example of a component library of [shadcn](https://ui.shadcn.com/) components with a theme, in a tree-shakeable,
 reusable package, and compatible with esm and cjs projects.
@@ -24,7 +24,7 @@ module.exports = {
     content: [
         "./index.html",
         "./src/**/*.{js,ts,jsx,tsx}",
-        "./node_modules/@grahamcrackers/components/**/*{js,ts,jsx,tsx}",
+        "./node_modules/@continuum-ui/components/**/*{js,ts,jsx,tsx}",
     ],
     theme: {
         extend: {},

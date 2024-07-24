@@ -54,11 +54,11 @@ export function Logo2() {
         <div className="flex items-center justify-center space-x-2">
             <LogoIcon />
             {/* <span className="hidden w-auto my-auto align-top h-9 fill-slate-700 lg:block dark:fill-sky-100">
-                @grahamcrackers/components
+                @continuum-ui/components
             </span> */}
             <div className="hidden lg:block">
                 <p className="inline bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display text-xl tracking-tight text-transparent">
-                    @grahamcrackers/components
+                    @continuum-ui/components
                 </p>
             </div>
         </div>

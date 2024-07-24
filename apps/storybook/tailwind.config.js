@@ -5,7 +5,7 @@ export default {
     content: [
         "./index.html", 
         "./src/**/*.{js,ts,jsx,tsx}", 
-        "./node_modules/@grahamcrackers/components/dist/**/*.{js,ts,jsx,tsx}"
+        "./node_modules/@continuum-ui/components/dist/**/*.{js,ts,jsx,tsx}"
     ],
     darkMode: ["class"],
     prefix: "",

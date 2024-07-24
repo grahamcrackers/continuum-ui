@@ -24,7 +24,7 @@ const lexend = localFont({
 export const metadata: Metadata = {
     title: {
         template: '%s - Docs',
-        default: '@grahamcrackers/components - A Component Library',
+        default: '@continuum-ui/components - A Component Library',
     },
     description: 'A library of react components in a single package.',
 }
