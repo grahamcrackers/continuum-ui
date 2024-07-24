@@ -1,0 +1,48 @@
+{
+    "name": "components",
+    "private": true,
+    "description": "An easier way to use spectrum",
+    "author": "Graham Rogers",
+    "license": "MIT",
+    "packageManager": "yarn@1.22.19",
+    "engines": {
+        "node": ">=18"
+    },
+    "workspaces": [
+        "apps/*",
+        "packages/*",
+        "configs/*"
+    ],
+    "scripts": {
+        "build": "turbo build",
+        "dev": "turbo dev",
+        "lint": "turbo lint",
+        "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+        "release": "yarn build && yarn changeset publish",
+        "prepare": "husky",
+        "commit": "git-cz"
+    },
+    "devDependencies": {
+        "@changesets/cli": "^2.27.6",
+        "@commitlint/cli": "^19.3.0",
+        "@commitlint/config-conventional": "^19.2.2",
+        "@ianvs/prettier-plugin-sort-imports": "^4.3.0",
+        "commitizen": "^4.3.0",
+        "cz-conventional-changelog": "^3.3.0",
+        "husky": "^9.0.11",
+        "lint-staged": "^15.2.7",
+        "prettier": "^3.2.5",
+        "turbo": "^2.0.5",
+        "typescript": "^5.4.5"
+    },
+    "lint-staged": {
+        "./{src,tests}/**/*.{ts,tsx}": [
+            "yarn lint --fix"
+        ]
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}
