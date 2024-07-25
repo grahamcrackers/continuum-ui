@@ -1,0 +1,10 @@
+{
+    "extends": "@continuum-ui/typescript-config/base.json",
+    "compilerOptions": {
+        "outDir": "dist",
+        "resolveJsonModule": true,
+        "downlevelIteration": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "dist"]
+}

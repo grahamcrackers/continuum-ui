@@ -1,0 +1,20 @@
+:root<% if(!sets.light.length) { %> { <% } else { %>,.light { <% } %>
+<% for (const token of tokens) { -%>
+--spectrum-<%- token.name %>: <%- token.value %>;
+<% } %>
+
+<% if(sets.light.length) { %>
+    /* light tokens */
+    <% for (const color of sets.light) { -%>
+    --spectrum-<%- color.name %>: <%- color.value %>; /* original: <%- color.original.value %> */
+    <% } %>
+<% } %>
+}
+
+<% if(sets.dark.length) { %>
+    .dark {
+    <% for (const color of sets.dark) { -%>
+    --spectrum-<%- color.name %>: <%- color.value %>; /* original: <%- color.original.value %> */
+    <% } %>
+    }
+<% } %>

@@ -1,0 +1,60 @@
+:root,
+.light {
+  --spectrum-swatch-border-color: var(--spectrum-gray-900);
+  --spectrum-swatch-border-opacity: 0.51;
+  --spectrum-swatch-disabled-icon-border-color: var(--spectrum-black);
+  --spectrum-swatch-disabled-icon-border-opacity: 0.51;
+  --spectrum-thumbnail-border-color: var(--spectrum-gray-800);
+  --spectrum-thumbnail-border-opacity: 0.1;
+  --spectrum-thumbnail-opacity-disabled: var(--spectrum-opacity-disabled);
+  --spectrum-opacity-checkerboard-square-light: var(--spectrum-white);
+  --spectrum-avatar-opacity-disabled: var(--spectrum-opacity-disabled);
+  --spectrum-color-area-border-color: var(--spectrum-gray-1000);
+  --spectrum-color-area-border-opacity: 0.1;
+  --spectrum-color-slider-border-color: var(--spectrum-gray-1000);
+  --spectrum-color-slider-border-opacity: 0.1;
+  --spectrum-color-loupe-inner-border: var(--spectrum-transparent-black-200);
+  --spectrum-color-loupe-outer-border: var(--spectrum-white);
+  --spectrum-card-selection-background-color: var(--spectrum-gray-100);
+  --spectrum-card-selection-background-color-opacity: 0.95;
+  --spectrum-drop-zone-background-color: var(--spectrum-accent-visual-color);
+  --spectrum-drop-zone-background-color-opacity: 0.1;
+  --spectrum-drop-zone-background-color-opacity-filled: 0.3;
+  --spectrum-coach-mark-pagination-color: var(--spectrum-gray-600);
+  --spectrum-color-handle-inner-border-color: var(--spectrum-black);
+  --spectrum-color-handle-inner-border-opacity: 0.42;
+  --spectrum-color-handle-outer-border-color: var(--spectrum-black);
+  --spectrum-color-handle-outer-border-opacity: var(--spectrum-color-handle-inner-border-opacity);
+  --spectrum-floating-action-button-drop-shadow-color: var(--spectrum-transparent-black-300);
+  --spectrum-table-row-hover-color: var(--spectrum-gray-900);
+  --spectrum-table-row-hover-opacity: 0.07;
+  --spectrum-table-selected-row-background-color: var(--spectrum-informative-background-color-default);
+  --spectrum-table-selected-row-background-opacity: 0.1;
+  --spectrum-table-selected-row-background-color-non-emphasized: var(
+    --spectrum-neutral-background-color-selected-default
+  );
+  --spectrum-table-selected-row-background-opacity-non-emphasized: 0.1;
+  --spectrum-table-row-down-opacity: 0.1;
+  --spectrum-table-selected-row-background-opacity-hover: 0.15;
+  --spectrum-table-selected-row-background-opacity-non-emphasized-hover: 0.15;
+  --spectrum-popover-border-color: var(--spectrum-gray-200);
+
+  /* light tokens */
+  --spectrum-opacity-checkerboard-square-dark: var(--spectrum-gray-200); /* original: {gray-200} */
+  --spectrum-menu-item-background-color-default: var(--spectrum-gray-100); /* original: {gray-100} */
+  --spectrum-menu-item-background-color-hover: var(--spectrum-gray-100); /* original: {gray-100} */
+  --spectrum-menu-item-background-color-down: var(--spectrum-gray-100); /* original: {gray-100} */
+  --spectrum-menu-item-background-color-keyboard-focus: var(--spectrum-gray-100); /* original: {gray-100} */
+  --spectrum-menu-item-background-color-disabled: var(--spectrum-gray-100); /* original: {gray-100} */
+  --spectrum-popover-border-opacity: 0; /* original: 0 */
+}
+
+.dark {
+  --spectrum-opacity-checkerboard-square-dark: var(--spectrum-gray-800); /* original: {gray-800} */
+  --spectrum-menu-item-background-color-default: var(--spectrum-gray-200); /* original: {gray-200} */
+  --spectrum-menu-item-background-color-hover: var(--spectrum-gray-200); /* original: {gray-200} */
+  --spectrum-menu-item-background-color-down: var(--spectrum-gray-200); /* original: {gray-200} */
+  --spectrum-menu-item-background-color-keyboard-focus: var(--spectrum-gray-200); /* original: {gray-200} */
+  --spectrum-menu-item-background-color-disabled: var(--spectrum-gray-200); /* original: {gray-200} */
+  --spectrum-popover-border-opacity: 1; /* original: 1.0 */
+}

@@ -1,0 +1,44 @@
+{
+    "name": "@continuum-ui/tokens",
+    "version": "0.0.0",
+    "private": true,
+    "bin": {
+        "tokens": "./cli.ts"
+    },
+    "exports": {
+        "./colors": "./src/colors.css",
+        "./colors-aliases": "./src/colors-aliases.css",
+        "./colors-component": "./src/colors-component.css",
+        "./colors-semantic": "./src/colors-semantic.css",
+        "./icons": "./src/icons.css",
+        "./layout": "./src/layout.css",
+        "./layout-component": "./src/layout-component.css",
+        "./typography": "./src/typography.css"
+    },
+    "scripts": {
+        "build": "tsx ./lib/build.ts",
+        "build:spectrum": "tsx ./lib/build.ts -o ../../spectrum/src/styles -p spectrum",
+        "lint": "eslint . --max-warnings 0"
+    },
+    "devDependencies": {
+        "@adobe/spectrum-tokens": "13.0.0-beta.34",
+        "@continuum-ui/eslint-config": "*",
+        "@continuum-ui/typescript-config": "*",
+        "@turbo/gen": "^1.11.3",
+        "@types/ejs": "^3.1.5",
+        "@types/eslint": "^8.56.1",
+        "@types/fs-extra": "^11.0.4",
+        "@types/minimist": "^1.2.5",
+        "@types/node": "^20.10.6",
+        "ejs": "^3.1.10",
+        "eslint": "^8.56.0",
+        "fs-extra": "^11.2.0",
+        "minimist": "^1.2.8",
+        "tsx": "^4.8.2",
+        "typescript": "^5.4.5",
+        "yargs": "^17.7.2"
+    },
+    "dependencies": {
+        "@types/yargs": "^17.0.32"
+    }
+}

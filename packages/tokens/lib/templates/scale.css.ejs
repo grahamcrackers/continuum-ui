@@ -1,0 +1,20 @@
+:root<% if(!sets.desktop.length) { %> { <% } else { %>,.desktop { <% } %>
+<% for (const token of tokens) { -%>
+--spectrum-<%- token.name %>: <%- token.value %>;
+<% } %>
+
+<% if(sets.desktop.length) { %>
+    /* desktop tokens */
+    <% for (const size of sets.desktop) { -%>
+    --spectrum-<%- size.name %>: <%- size.value %>; /* original: <%- size.original.value %> */
+    <% } %>
+<% } %>
+}
+
+<% if(sets.mobile.length) { %>
+    .mobile {
+    <% for (const size of sets.mobile) { -%>
+    --spectrum-<%- size.name %>: <%- size.value %>; /* original: <%- size.original.value %> */
+    <% } %>
+    }
+<% } %>

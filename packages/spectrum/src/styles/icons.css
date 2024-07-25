@@ -1,0 +1,18 @@
+:root,
+.light {
+  --spectrum-icon-color-inverse: var(--spectrum-gray-50);
+  --spectrum-icon-color-primary-default: var(--spectrum-neutral-content-color-default);
+
+  /* light tokens */
+  --spectrum-icon-color-blue-primary-default: var(--spectrum-blue-900); /* original: {blue-900} */
+  --spectrum-icon-color-green-primary-default: var(--spectrum-green-900); /* original: {green-900} */
+  --spectrum-icon-color-red-primary-default: var(--spectrum-red-900); /* original: {red-900} */
+  --spectrum-icon-color-yellow-primary-default: var(--spectrum-yellow-400); /* original: {yellow-400} */
+}
+
+.dark {
+  --spectrum-icon-color-blue-primary-default: var(--spectrum-blue-800); /* original: {blue-800} */
+  --spectrum-icon-color-green-primary-default: var(--spectrum-green-800); /* original: {green-800} */
+  --spectrum-icon-color-red-primary-default: var(--spectrum-red-700); /* original: {red-700} */
+  --spectrum-icon-color-yellow-primary-default: var(--spectrum-yellow-1000); /* original: {yellow-1000} */
+}

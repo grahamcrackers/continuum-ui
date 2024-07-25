@@ -1,0 +1,20 @@
+@layer base {
+  :root,
+  .light {
+    --spectrum-icon-color-inverse: var(--undefinedgray-50);
+    --spectrum-icon-color-primary-default: var(--undefinedneutral-content-color-default);
+
+    /* light tokens */
+    --spectrum-icon-color-blue-primary-default: var(--undefinedblue-900); /* original: {blue-900} */
+    --spectrum-icon-color-green-primary-default: var(--undefinedgreen-900); /* original: {green-900} */
+    --spectrum-icon-color-red-primary-default: var(--undefinedred-900); /* original: {red-900} */
+    --spectrum-icon-color-yellow-primary-default: var(--undefinedyellow-400); /* original: {yellow-400} */
+  }
+
+  .dark {
+    --spectrum-icon-color-blue-primary-default: var(--undefinedblue-800); /* original: {blue-800} */
+    --spectrum-icon-color-green-primary-default: var(--undefinedgreen-800); /* original: {green-800} */
+    --spectrum-icon-color-red-primary-default: var(--undefinedred-700); /* original: {red-700} */
+    --spectrum-icon-color-yellow-primary-default: var(--undefinedyellow-1000); /* original: {yellow-1000} */
+  }
+}

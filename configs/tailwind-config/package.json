@@ -1,0 +1,20 @@
+{
+    "name": "@continuum-ui/tailwind-config",
+    "version": "0.0.0",
+    "private": true,
+    "exports": {
+        ".": "./tailwind.config.ts"
+    },
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://artifactory.corp.adobe.com/artifactory/api/npm/npm-adobe-release/"
+    },
+    "devDependencies": {
+        "@continuum-ui/typescript-config": "*",
+        "postcss": "^8.4.39",
+        "postcss-extend": "^1.0.5",
+        "postcss-import": "^16.1.0",
+        "tailwindcss": "^3.4.1",
+        "tailwindcss-animate": "^1.0.7"
+    }
+}

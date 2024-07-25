@@ -1,6 +1,10 @@
+// TODO: shared postcss config
 export default {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
-}
+    plugins: {
+        "postcss-import": {},
+        "postcss-extend": {},
+        "tailwindcss/nesting": {},
+        tailwindcss: {},
+        autoprefixer: {},
+    },
+};

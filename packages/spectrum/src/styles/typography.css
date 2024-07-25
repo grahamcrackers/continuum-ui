@@ -1,0 +1,202 @@
+:root,
+.desktop {
+  --spectrum-default-font-family: var(--spectrum-sans-serif-font-family);
+  --spectrum-sans-serif-font-family: Adobe Clean;
+  --spectrum-serif-font-family: Adobe Clean Serif;
+  --spectrum-light-font-weight: light;
+  --spectrum-regular-font-weight: regular;
+  --spectrum-medium-font-weight: medium;
+  --spectrum-bold-font-weight: bold;
+  --spectrum-extra-bold-font-weight: extra-bold;
+  --spectrum-black-font-weight: black;
+  --spectrum-italic-font-style: italic;
+  --spectrum-default-font-style: normal;
+  --spectrum-line-height-100: 1.3;
+  --spectrum-line-height-200: 1.5;
+  --spectrum-heading-sans-serif-font-family: var(--spectrum-sans-serif-font-family);
+  --spectrum-heading-serif-font-family: var(--spectrum-serif-font-family);
+  --spectrum-heading-sans-serif-light-font-weight: var(--spectrum-light-font-weight);
+  --spectrum-heading-sans-serif-light-font-style: var(--spectrum-default-font-style);
+  --spectrum-heading-serif-light-font-weight: var(--spectrum-regular-font-weight);
+  --spectrum-heading-serif-light-font-style: var(--spectrum-default-font-style);
+  --spectrum-heading-sans-serif-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-heading-sans-serif-font-style: var(--spectrum-default-font-style);
+  --spectrum-heading-serif-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-heading-serif-font-style: var(--spectrum-default-font-style);
+  --spectrum-heading-sans-serif-heavy-font-weight: var(--spectrum-black-font-weight);
+  --spectrum-heading-sans-serif-heavy-font-style: var(--spectrum-default-font-style);
+  --spectrum-heading-serif-heavy-font-weight: var(--spectrum-black-font-weight);
+  --spectrum-heading-serif-heavy-font-style: var(--spectrum-default-font-style);
+  --spectrum-heading-sans-serif-light-strong-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-heading-sans-serif-light-strong-font-style: var(--spectrum-default-font-style);
+  --spectrum-heading-serif-light-strong-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-heading-serif-light-strong-font-style: var(--spectrum-default-font-style);
+  --spectrum-heading-sans-serif-strong-font-weight: var(--spectrum-black-font-weight);
+  --spectrum-heading-sans-serif-strong-font-style: var(--spectrum-default-font-style);
+  --spectrum-heading-serif-strong-font-weight: var(--spectrum-black-font-weight);
+  --spectrum-heading-serif-strong-font-style: var(--spectrum-default-font-style);
+  --spectrum-heading-sans-serif-heavy-strong-font-weight: var(--spectrum-black-font-weight);
+  --spectrum-heading-sans-serif-heavy-strong-font-style: var(--spectrum-default-font-style);
+  --spectrum-heading-serif-heavy-strong-font-weight: var(--spectrum-black-font-weight);
+  --spectrum-heading-serif-heavy-strong-font-style: var(--spectrum-default-font-style);
+  --spectrum-heading-sans-serif-light-emphasized-font-weight: var(--spectrum-light-font-weight);
+  --spectrum-heading-sans-serif-light-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-heading-serif-light-emphasized-font-weight: var(--spectrum-regular-font-weight);
+  --spectrum-heading-serif-light-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-heading-sans-serif-emphasized-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-heading-sans-serif-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-heading-serif-emphasized-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-heading-serif-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-heading-sans-serif-heavy-emphasized-font-weight: var(--spectrum-black-font-weight);
+  --spectrum-heading-sans-serif-heavy-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-heading-serif-heavy-emphasized-font-weight: var(--spectrum-black-font-weight);
+  --spectrum-heading-serif-heavy-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-heading-sans-serif-light-strong-emphasized-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-heading-sans-serif-light-strong-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-heading-serif-light-strong-emphasized-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-heading-serif-light-strong-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-heading-sans-serif-strong-emphasized-font-weight: var(--spectrum-black-font-weight);
+  --spectrum-heading-sans-serif-strong-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-heading-serif-strong-emphasized-font-weight: var(--spectrum-black-font-weight);
+  --spectrum-heading-serif-strong-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-heading-sans-serif-heavy-strong-emphasized-font-weight: var(--spectrum-black-font-weight);
+  --spectrum-heading-sans-serif-heavy-strong-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-heading-serif-heavy-strong-emphasized-font-weight: var(--spectrum-black-font-weight);
+  --spectrum-heading-serif-heavy-strong-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-heading-size-xxxl: var(--spectrum-font-size-1300);
+  --spectrum-heading-size-xxl: var(--spectrum-font-size-1100);
+  --spectrum-heading-size-xl: var(--spectrum-font-size-900);
+  --spectrum-heading-size-l: var(--spectrum-font-size-700);
+  --spectrum-heading-size-m: var(--spectrum-font-size-500);
+  --spectrum-heading-size-s: var(--spectrum-font-size-300);
+  --spectrum-heading-size-xs: var(--spectrum-font-size-200);
+  --spectrum-heading-size-xxs: var(--spectrum-font-size-100);
+  --spectrum-heading-line-height: var(--spectrum-line-height-100);
+  --spectrum-heading-margin-top-multiplier: 0.88888889;
+  --spectrum-heading-margin-bottom-multiplier: 0.25;
+  --spectrum-heading-color: var(--spectrum-gray-900);
+  --spectrum-body-sans-serif-font-family: var(--spectrum-sans-serif-font-family);
+  --spectrum-body-serif-font-family: var(--spectrum-serif-font-family);
+  --spectrum-body-sans-serif-font-weight: var(--spectrum-regular-font-weight);
+  --spectrum-body-sans-serif-font-style: var(--spectrum-default-font-style);
+  --spectrum-body-serif-font-weight: var(--spectrum-regular-font-weight);
+  --spectrum-body-serif-font-style: var(--spectrum-default-font-style);
+  --spectrum-body-sans-serif-strong-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-body-sans-serif-strong-font-style: var(--spectrum-default-font-style);
+  --spectrum-body-serif-strong-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-body-serif-strong-font-style: var(--spectrum-default-font-style);
+  --spectrum-body-sans-serif-emphasized-font-weight: var(--spectrum-regular-font-weight);
+  --spectrum-body-sans-serif-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-body-serif-emphasized-font-weight: var(--spectrum-regular-font-weight);
+  --spectrum-body-serif-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-body-sans-serif-strong-emphasized-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-body-sans-serif-strong-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-body-serif-strong-emphasized-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-body-serif-strong-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-body-size-xxxl: var(--spectrum-font-size-600);
+  --spectrum-body-size-xxl: var(--spectrum-font-size-500);
+  --spectrum-body-size-xl: var(--spectrum-font-size-400);
+  --spectrum-body-size-l: var(--spectrum-font-size-300);
+  --spectrum-body-size-m: var(--spectrum-font-size-200);
+  --spectrum-body-size-s: var(--spectrum-font-size-100);
+  --spectrum-body-size-xs: var(--spectrum-font-size-75);
+  --spectrum-body-line-height: var(--spectrum-line-height-200);
+  --spectrum-body-margin-multiplier: 0.75;
+  --spectrum-body-color: var(--spectrum-gray-800);
+  --spectrum-detail-sans-serif-font-family: var(--spectrum-sans-serif-font-family);
+  --spectrum-detail-serif-font-family: var(--spectrum-serif-font-family);
+  --spectrum-detail-sans-serif-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-detail-sans-serif-font-style: var(--spectrum-default-font-style);
+  --spectrum-detail-serif-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-detail-serif-font-style: var(--spectrum-default-font-style);
+  --spectrum-detail-sans-serif-light-font-weight: var(--spectrum-regular-font-weight);
+  --spectrum-detail-sans-serif-light-font-style: var(--spectrum-default-font-style);
+  --spectrum-detail-serif-light-font-weight: var(--spectrum-regular-font-weight);
+  --spectrum-detail-serif-light-font-style: var(--spectrum-default-font-style);
+  --spectrum-detail-sans-serif-strong-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-detail-sans-serif-strong-font-style: var(--spectrum-default-font-style);
+  --spectrum-detail-serif-strong-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-detail-serif-strong-font-style: var(--spectrum-default-font-style);
+  --spectrum-detail-sans-serif-light-strong-font-weight: var(--spectrum-regular-font-weight);
+  --spectrum-detail-sans-serif-light-strong-font-style: var(--spectrum-default-font-style);
+  --spectrum-detail-serif-light-strong-font-weight: var(--spectrum-regular-font-weight);
+  --spectrum-detail-serif-light-strong-font-style: var(--spectrum-default-font-style);
+  --spectrum-detail-sans-serif-emphasized-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-detail-sans-serif-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-detail-serif-emphasized-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-detail-serif-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-detail-sans-serif-light-emphasized-font-weight: var(--spectrum-regular-font-weight);
+  --spectrum-detail-sans-serif-light-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-detail-serif-light-emphasized-font-weight: var(--spectrum-regular-font-weight);
+  --spectrum-detail-serif-light-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-detail-sans-serif-strong-emphasized-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-detail-sans-serif-strong-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-detail-serif-strong-emphasized-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-detail-serif-strong-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-detail-sans-serif-light-strong-emphasized-font-weight: var(--spectrum-regular-font-weight);
+  --spectrum-detail-sans-serif-light-strong-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-detail-serif-light-strong-emphasized-font-weight: var(--spectrum-regular-font-weight);
+  --spectrum-detail-serif-light-strong-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-detail-size-xl: var(--spectrum-font-size-200);
+  --spectrum-detail-size-l: var(--spectrum-font-size-100);
+  --spectrum-detail-size-m: var(--spectrum-font-size-75);
+  --spectrum-detail-size-s: var(--spectrum-font-size-50);
+  --spectrum-detail-line-height: var(--spectrum-line-height-100);
+  --spectrum-detail-margin-top-multiplier: 0.88888889;
+  --spectrum-detail-margin-bottom-multiplier: 0.25;
+  --spectrum-detail-letter-spacing: 0.06em;
+  --spectrum-detail-sans-serif-text-transform: uppercase;
+  --spectrum-detail-serif-text-transform: uppercase;
+  --spectrum-detail-color: var(--spectrum-gray-900);
+  --spectrum-code-font-family: Source Code Pro;
+  --spectrum-code-font-weight: var(--spectrum-regular-font-weight);
+  --spectrum-code-font-style: var(--spectrum-default-font-style);
+  --spectrum-code-strong-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-code-strong-font-style: var(--spectrum-default-font-style);
+  --spectrum-code-emphasized-font-weight: var(--spectrum-regular-font-weight);
+  --spectrum-code-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-code-strong-emphasized-font-weight: var(--spectrum-bold-font-weight);
+  --spectrum-code-strong-emphasized-font-style: var(--spectrum-italic-font-style);
+  --spectrum-code-size-xl: var(--spectrum-font-size-400);
+  --spectrum-code-size-l: var(--spectrum-font-size-300);
+  --spectrum-code-size-m: var(--spectrum-font-size-200);
+  --spectrum-code-size-s: var(--spectrum-font-size-100);
+  --spectrum-code-size-xs: var(--spectrum-font-size-75);
+  --spectrum-code-line-height: var(--spectrum-line-height-200);
+  --spectrum-code-color: var(--spectrum-gray-800);
+
+  /* desktop tokens */
+  --spectrum-font-size-50: 0.6875rem; /* original: 11px */
+  --spectrum-font-size-75: 0.75rem; /* original: 12px */
+  --spectrum-font-size-100: 0.875rem; /* original: 14px */
+  --spectrum-font-size-200: 1rem; /* original: 16px */
+  --spectrum-font-size-300: 1.125rem; /* original: 18px */
+  --spectrum-font-size-400: 1.25rem; /* original: 20px */
+  --spectrum-font-size-500: 1.375rem; /* original: 22px */
+  --spectrum-font-size-600: 1.5625rem; /* original: 25px */
+  --spectrum-font-size-700: 1.75rem; /* original: 28px */
+  --spectrum-font-size-800: 2rem; /* original: 32px */
+  --spectrum-font-size-900: 2.25rem; /* original: 36px */
+  --spectrum-font-size-1000: 2.5rem; /* original: 40px */
+  --spectrum-font-size-1100: 2.8125rem; /* original: 45px */
+  --spectrum-font-size-1200: 3.125rem; /* original: 50px */
+  --spectrum-font-size-1300: 3.75rem; /* original: 60px */
+}
+
+.mobile {
+  --spectrum-font-size-50: 0.8125rem; /* original: 13px */
+  --spectrum-font-size-75: 0.9375rem; /* original: 15px */
+  --spectrum-font-size-100: 1.0625rem; /* original: 17px */
+  --spectrum-font-size-200: 1.1875rem; /* original: 19px */
+  --spectrum-font-size-300: 1.375rem; /* original: 22px */
+  --spectrum-font-size-400: 1.5rem; /* original: 24px */
+  --spectrum-font-size-500: 1.6875rem; /* original: 27px */
+  --spectrum-font-size-600: 1.9375rem; /* original: 31px */
+  --spectrum-font-size-700: 2.125rem; /* original: 34px */
+  --spectrum-font-size-800: 2.4375rem; /* original: 39px */
+  --spectrum-font-size-900: 2.75rem; /* original: 44px */
+  --spectrum-font-size-1000: 3.0625rem; /* original: 49px */
+  --spectrum-font-size-1100: 3.4375rem; /* original: 55px */
+  --spectrum-font-size-1200: 3.875rem; /* original: 62px */
+  --spectrum-font-size-1300: 4.375rem; /* original: 70px */
+}

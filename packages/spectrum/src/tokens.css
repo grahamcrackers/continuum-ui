@@ -1,0 +1,13 @@
+/* TODO: better exports */
+@import "./styles/colors.css";
+@import "./styles/colors-aliases.css";
+@import "./styles/colors-component.css";
+@import "./styles/colors-semantic.css";
+@import "./styles/icons.css";
+@import "./styles/layout-component.css";
+@import "./styles/layout.css";
+@import "./styles/typography.css";
+
+@import "./icons/icons.css";
+@import "./icons/ui.css";
+@import "./icons/workflow.css";

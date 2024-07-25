@@ -1,0 +1,16 @@
+/* there are some variables for spectrum 2 not included in tokens yet. */
+
+@layer utilities {
+    :root,
+    .desktop {
+        --font-size-1400: 2.8125rem; /* original: 65px */
+        --font-size-1500: 4.563rem; /* original: 73px */
+        --font-size-1600: 5.125rem; /* original: 82px */
+    }
+
+    .mobile {
+        --font-size-1400: 4.938rem; /* original: 79px */
+        --font-size-1500: 5.5rem; /* original: 88px */
+        --font-size-1600: 6.188rem; /* original: 99px */
+    }
+}
