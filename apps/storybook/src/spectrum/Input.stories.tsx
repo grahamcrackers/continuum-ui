@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Input } from "@continuum-ui/spectrum/input";
+import { Input } from "@continuum-ui/spectrum/components/input";
 
 const meta = {
     title: "Spectrum/Input",

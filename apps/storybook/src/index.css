@@ -1,9 +1,9 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @layer base {
-    :root, .light {
+    :root, .spectrum--light {
         --background: 0 0% 100%;
         --foreground: 222.2 84% 4.9%;
 
@@ -37,8 +37,8 @@
         --font-sans: "Inter var"
     }
 
-    .dark {
-        --background: 222.2 84% 4.9%;
+    .spectrum--dark {
+        --background: 224 71% 4%;
         --foreground: 210 40% 98%;
 
         --card: 222.2 84% 4.9%;
@@ -70,9 +70,10 @@
 
 @layer base {
     * {
+        /* allows us to just apply a border-<color> to create a border */
         @apply border-border;
     }
     body {
-        @apply bg-background text-foreground;
+        /* @apply bg-background text-foreground; */
     }
 }

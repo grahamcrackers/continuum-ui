@@ -1,8 +1,8 @@
 import React from "react";
-import { ThemeProvider } from "@continuum-ui/spectrum";
+import { ThemeProvider } from "@continuum-ui/spectrum/contexts";
 import type { Preview } from "@storybook/react";
 
-import "@continuum-ui/spectrum/tokens";
+import "@continuum-ui/utils/styles.css";
 import "../src/index.css";
 
 const preview: Preview = {
@@ -17,7 +17,7 @@ const preview: Preview = {
     decorators: [
         (Story, context) => {
             return (
-                <ThemeProvider defaultTheme="light" storageKey="sb-ui-theme">
+                <ThemeProvider theme="light" storageKey="sb-ui-theme">
                     <Story />
                 </ThemeProvider>
             );

@@ -27,10 +27,8 @@ export const Default: Story = {
             <TableHeader>
                 <TableRow>
                     <TableHead sortable className="is-sorted-desc">   
-                        <div className="flex items-center">
-                            
+                        <div className="flex items-center">                            
                         <Arrow100Icon className="spectrum-Icon spectrum-UIIcon-ArrowDown100 spectrum-Table-sortedIcon"/>                     
-                        
                         <span className="spectrum-Table-columnTitle">Column title</span>
                         </div>
                     </TableHead>

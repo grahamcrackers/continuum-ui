@@ -1,6 +1,7 @@
 {
     "name": "@continuum-ui/icons",
     "version": "0.0.1",
+    "types": "./src/helpers/types.ts",
     "exports": {
         "./ui/large": {
             "types": "./src/icons/large/index.ts",

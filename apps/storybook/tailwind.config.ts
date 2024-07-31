@@ -7,6 +7,7 @@ const config: Pick<Config, "prefix" | "presets" | "content"> = {
         "./index.html", 
         "./src/**/*.{js,ts,jsx,tsx}", 
         "../../node_modules/@continuum-ui/components/src/**/*.{js,ts,jsx,tsx}",
+        "../../node_modules/@continuum-ui/spectrum/dist/**/*.{js,jsx}",
         "../../node_modules/@continuum-ui/spectrum/src/**/*.{js,ts,jsx,tsx}"
     ],
     presets: [sharedConfig]

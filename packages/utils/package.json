@@ -2,22 +2,47 @@
     "name": "@continuum-ui/utils",
     "version": "0.0.1",
     "exports": {
-        ".": "./src/index.ts"
+        ".": "./src/index.ts",
+        "./styles.css": "./dist/styles.css"
     },
     "scripts": {
+        "dev:css": "postcss src/index.css -o dist/styles.css --watch",
+        "build:css": "postcss src/index.css -o dist/styles.css",
         "lint": "eslint . --max-warnings 0"
     },
     "dependencies": {
+        "@spectrum-css/actionbutton": "^6.1.1",
+        "@spectrum-css/actionmenu": "^6.1.1",
+        "@spectrum-css/button": "^11.0.19",
+        "@spectrum-css/checkbox": "^8.0.6",
+        "@spectrum-css/icon": "^5.1.0",
+        "@spectrum-css/page": "^7.1.0",
+        "@spectrum-css/table": "^5.1.1",
+        "@spectrum-css/tabs": "^5.1.1",
+        "@spectrum-css/textfield": "^7.2.0",
+        "@spectrum-css/tokens": "^13.0.8",
+        "@spectrum-css/tooltip": "^5.2.0",
+        "@spectrum-css/typography": "^5.1.0",
+        "@spectrum-css/vars": "^9.0.8",
         "clsx": "^2.1.1",
         "tailwind-merge": "^2.3.0"
     },
     "devDependencies": {
         "@continuum-ui/eslint-config": "*",
         "@continuum-ui/typescript-config": "*",
+        "@spectrum-css/divider": "^3.1.1",
         "@types/eslint": "^8.56.1",
         "@types/node": "^20.10.6",
+        "autoprefixer": "^10.4.19",
         "ejs": "^3.1.10",
         "eslint": "^8.56.0",
+        "postcss": "^8.4.40",
+        "postcss-cli": "^11.0.0",
+        "postcss-combine-duplicated-selectors": "^10.0.3",
+        "postcss-custom-media": "^10.0.8",
+        "postcss-discard-empty": "^7.0.0",
+        "postcss-import": "^16.1.0",
+        "postcss-nesting": "^12.1.5",
         "tsx": "^4.8.2",
         "typescript": "^5.4.5"
     }

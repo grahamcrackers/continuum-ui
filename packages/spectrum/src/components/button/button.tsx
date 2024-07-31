@@ -2,8 +2,6 @@ import { cn } from "@continuum-ui/utils";
 import { Slot } from "@radix-ui/react-slot";
 import { type VariantProps } from "class-variance-authority";
 import * as React from "react";
-import "./button-theme.css";
-import "./button.css";
 import { buttonVariants } from "./variants";
 
 
@@ -25,4 +23,4 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 );
 Button.displayName = "Button";
 
-export { Button, buttonVariants };
+export { Button };

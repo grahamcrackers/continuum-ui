@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-    :root, .light {
-        --background: 0 0% 100%;
+    :root, .spectrum--light {
+        --background: var(--specrum-gray-100);
         --foreground: 222.2 84% 4.9%;
 
         --card: 0 0% 100%;
@@ -37,8 +37,8 @@
         --font-sans: "Inter var"
     }
 
-    .dark {
-        --background: 222.2 84% 4.9%;
+    .spectrum--dark {
+        --background: var(--specrum-gray-100);
         --foreground: 210 40% 98%;
 
         --card: 222.2 84% 4.9%;

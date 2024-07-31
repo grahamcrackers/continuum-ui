@@ -1,18 +1,15 @@
-import * as React from "react";
 import { cn } from "@continuum-ui/utils";
-
-import "./index.css";
-
 import { VariantProps } from "class-variance-authority";
+import * as React from "react";
 
 import { tableHeadVariants, tableVariants } from "./variants";
 
 export interface TableProps extends React.HTMLAttributes<HTMLTableElement>, VariantProps<typeof tableVariants> {}
 
 const Table = React.forwardRef<HTMLTableElement, TableProps>(({ className, size, ...props }, ref) => (
-    <div className="relative w-full overflow-auto">
+    // <div className="relative w-full overflow-auto">
         <table ref={ref} className={cn(tableVariants({ size, className }))} {...props} />
-    </div>
+    // </div>
 ));
 Table.displayName = "Table";
 
@@ -55,7 +52,7 @@ TableHead.displayName = "TableHead";
 
 const TableCell = React.forwardRef<HTMLTableCellElement, React.TdHTMLAttributes<HTMLTableCellElement>>(
     ({ className, ...props }, ref) => (
-        <td ref={ref} className={cn("spectrum-Table-cell pe-x-4", className)} {...props} />
+        <td ref={ref} className={cn("spectrum-Table-cell py-2", className)} {...props} />
     ),
 );
 TableCell.displayName = "TableCell";

@@ -1,0 +1,27 @@
+/* <!-- Include global variables first --> */
+@import "@spectrum-css/vars/dist/spectrum-global.css";
+
+/* <!-- Include only the scales your application needs --> */
+@import "@spectrum-css/vars/dist/spectrum-medium.css";
+@import "@spectrum-css/vars/dist/spectrum-large.css";
+
+/* <!-- Include only the colorstops your application needs --> */
+@import "@spectrum-css/vars/dist/spectrum-light.css";
+@import "@spectrum-css/vars/dist/spectrum-dark.css";
+
+/* <!-- Include tokens --> */
+@import "@spectrum-css/tokens/dist/index.css";
+
+/* <!-- Include index-vars.css for all components you need --> */
+@import "@spectrum-css/typography/dist/index-vars.css";
+@import "@spectrum-css/icon/dist/index-vars.css";
+@import "@spectrum-css/page/dist/index-vars.css";
+@import "@spectrum-css/button/dist/index-vars.css";
+@import "@spectrum-css/table/dist/index-vars.css";
+@import "@spectrum-css/checkbox/dist/index-vars.css";
+@import "@spectrum-css/actionbutton/dist/index-vars.css";
+@import "@spectrum-css/tooltip/dist/index-vars.css";
+@import "@spectrum-css/tabs/dist/index-vars.css";
+@import "@spectrum-css/divider/dist/index-vars.css";
+@import "@spectrum-css/textfield/dist/index-vars.css";
+@import "@spectrum-css/actionmenu/dist/index-vars.css";

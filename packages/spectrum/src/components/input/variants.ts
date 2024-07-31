@@ -1,7 +1,8 @@
 import { cva } from "class-variance-authority";
 
 /*
-    @reference https://github.com/adobe/spectrum-css/blob/main/components/button/index.css
+    There's some weird padding calculations that push everything up.... in order to combat this for now,
+    we can override the padding calculation with
 */
 export const inputVariants = cva("spectrum-Textfield-input", {
     variants: {
@@ -14,10 +15,10 @@ export const inputVariants = cva("spectrum-Textfield-input", {
         //     link: "text-primary underline-offset-4 hover:underline",
         // },
         size: {
-            sm: "spectrum-Textfield--sizeS",
-            md: "spectrum-Textfield--sizeM",
-            lg: "spectrum-Textfield--sizeL",
-            xl: "spectrum-Textfield--sizeXL",
+            sm: "spectrum-Textfield--sizeS py-1",
+            md: "spectrum-Textfield--sizeM py-2",
+            lg: "spectrum-Textfield--sizeL py-2",
+            xl: "spectrum-Textfield--sizeXL py-3",
         },
     },
     defaultVariants: {

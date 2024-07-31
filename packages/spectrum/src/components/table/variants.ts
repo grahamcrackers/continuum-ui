@@ -1,6 +1,6 @@
 import { cva } from "class-variance-authority";
 
-export const tableVariants = cva("spectrum-Table", {
+export const tableVariants = cva("spectrum-Table w-full", {
     variants: {
         // variant: {
         //     accent: "spectrum-Button--accent",

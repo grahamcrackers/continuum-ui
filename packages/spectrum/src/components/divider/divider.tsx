@@ -5,8 +5,6 @@ import type { VariantProps } from "class-variance-authority";
 
 import { dividerVariants } from "./variants";
 
-import "./divider.css";
-
 export const Divider = React.forwardRef<
     React.ElementRef<typeof SeparatorPrimitive.Root> & VariantProps<typeof dividerVariants>,
     React.ComponentPropsWithoutRef<typeof SeparatorPrimitive.Root> & VariantProps<typeof dividerVariants>
@@ -20,3 +18,8 @@ export const Divider = React.forwardRef<
     />
 ));
 Divider.displayName = SeparatorPrimitive.Root.displayName;
+
+// --spectrum-corner-triangle-icon-size-75: 5px; /* original: 5px */
+// --spectrum-corner-triangle-icon-size-100: 5px; /* original: 5px */
+// --spectrum-corner-triangle-icon-size-200: 6px; /* original: 6px */
+// --spectrum-corner-triangle-icon-size-300: 7px; /* original: 7px */
