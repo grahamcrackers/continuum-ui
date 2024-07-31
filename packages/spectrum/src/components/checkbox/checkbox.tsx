@@ -19,11 +19,6 @@ const CheckboxRoot = React.forwardRef<HTMLLabelElement, CheckboxRootProps>(({ cl
 CheckboxRoot.displayName = "CheckboxRoot";
 
 ////
-const CHECKBOX_STATES = {
-    Checked: 'Checked',
-    Indeterminate: 'Indeterminate',
-    Empty: 'Empty',
-};
 
 export type CheckboxInputProps = Omit<React.HTMLAttributes<HTMLInputElement>, 'type'> & { checked?: boolean }
 const CheckboxInput = React.forwardRef<HTMLInputElement, CheckboxInputProps>(

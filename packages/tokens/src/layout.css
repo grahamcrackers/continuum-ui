@@ -1,333 +1,331 @@
-@layer base {
-  :root,
-  .desktop {
-    --spectrum-corner-radius-0: 0px;
-    --spectrum-corner-radius-75: 3px;
-    --spectrum-corner-radius-100: 4px;
-    --spectrum-corner-radius-200: 5px;
-    --spectrum-corner-radius-300: 6px;
-    --spectrum-corner-radius-400: 7px;
-    --spectrum-corner-radius-500: 8px;
-    --spectrum-corner-radius-600: 9px;
-    --spectrum-corner-radius-700: 10px;
-    --spectrum-corner-radius-800: 16px;
-    --spectrum-corner-radius-1000: 0.5;
-    --spectrum-android-elevation: 2dp;
-    --spectrum-spacing-50: 2px;
-    --spectrum-spacing-75: 4px;
-    --spectrum-spacing-100: 8px;
-    --spectrum-spacing-200: 12px;
-    --spectrum-spacing-300: 16px;
-    --spectrum-spacing-400: 24px;
-    --spectrum-spacing-500: 32px;
-    --spectrum-spacing-600: 40px;
-    --spectrum-spacing-700: 48px;
-    --spectrum-spacing-800: 64px;
-    --spectrum-spacing-900: 80px;
-    --spectrum-spacing-1000: 96px;
-    --spectrum-focus-indicator-thickness: 2px;
-    --spectrum-focus-indicator-gap: 2px;
-    --spectrum-border-width-100: 1px;
-    --spectrum-border-width-200: 2px;
-    --spectrum-border-width-400: 4px;
-    --spectrum-field-edge-to-visual-quiet: 0px;
-    --spectrum-side-label-character-count-top-margin-small: 0px;
-    --spectrum-side-label-character-count-top-margin-medium: 0px;
-    --spectrum-side-label-character-count-top-margin-large: 0px;
-    --spectrum-side-label-character-count-top-margin-extra-large: 0px;
-    --spectrum-text-underline-thickness: 1px;
-    --spectrum-text-underline-gap: 1px;
-    --spectrum-component-size-width-ratio-down: 0.3333;
-    --spectrum-component-size-minimum-perspective-down: 24px;
-    --spectrum-component-size-difference-down: -2px;
-    --spectrum-corner-radius-none: var(--undefinedcorner-radius-0);
-    --spectrum-corner-radius-small-default: var(--undefinedcorner-radius-100);
-    --spectrum-corner-radius-medium-default: var(--undefinedcorner-radius-500);
-    --spectrum-corner-radius-large-default: var(--undefinedcorner-radius-700);
-    --spectrum-corner-radius-extra-large-default: var(--undefinedcorner-radius-800);
-    --spectrum-corner-radius-full: var(--undefinedcorner-radius-1000);
-    --spectrum-corner-radius-small-size-small: var(--undefinedcorner-radius-75);
-    --spectrum-corner-radius-small-size-medium: var(--undefinedcorner-radius-100);
-    --spectrum-corner-radius-small-size-large: var(--undefinedcorner-radius-200);
-    --spectrum-corner-radius-small-size-extra-large: var(--undefinedcorner-radius-300);
-    --spectrum-corner-radius-medium-size-extra-small: var(--undefinedcorner-radius-300);
-    --spectrum-corner-radius-medium-size-small: var(--undefinedcorner-radius-400);
-    --spectrum-corner-radius-medium-size-medium: var(--undefinedcorner-radius-500);
-    --spectrum-corner-radius-medium-size-large: var(--undefinedcorner-radius-600);
-    --spectrum-corner-radius-medium-size-extra-large: var(--undefinedcorner-radius-700);
-    --spectrum-drop-shadow-x-100: 0px;
-    --spectrum-drop-shadow-x-200: 0px;
-    --spectrum-drop-shadow-y-100: 1px;
-    --spectrum-drop-shadow-y-200: 2px;
-    --spectrum-drop-shadow-blur-100: 6px;
-    --spectrum-drop-shadow-blur-200: 8px;
-    --spectrum-drop-shadow-emphasized-default-x: var(--undefineddrop-shadow-x-100);
-    --spectrum-drop-shadow-emphasized-default-y: var(--undefineddrop-shadow-y-100);
-    --spectrum-drop-shadow-emphasized-default-blur: var(--undefineddrop-shadow-blur-100);
-    --spectrum-drop-shadow-emphasized-hover-x: var(--undefineddrop-shadow-x-200);
-    --spectrum-drop-shadow-emphasized-hover-y: var(--undefineddrop-shadow-y-200);
-    --spectrum-drop-shadow-emphasized-hover-blur: var(--undefineddrop-shadow-blur-200);
-    --spectrum-drop-shadow-elevated-x: var(--undefineddrop-shadow-x-200);
-    --spectrum-drop-shadow-elevated-y: var(--undefineddrop-shadow-y-200);
-    --spectrum-drop-shadow-elevated-blur: var(--undefineddrop-shadow-blur-200);
+:root,
+.desktop {
+  --spectrum-corner-radius-0: 0px;
+  --spectrum-corner-radius-75: 3px;
+  --spectrum-corner-radius-100: 4px;
+  --spectrum-corner-radius-200: 5px;
+  --spectrum-corner-radius-300: 6px;
+  --spectrum-corner-radius-400: 7px;
+  --spectrum-corner-radius-500: 8px;
+  --spectrum-corner-radius-600: 9px;
+  --spectrum-corner-radius-700: 10px;
+  --spectrum-corner-radius-800: 16px;
+  --spectrum-corner-radius-1000: 0.5;
+  --spectrum-android-elevation: 2dp;
+  --spectrum-spacing-50: 2px;
+  --spectrum-spacing-75: 4px;
+  --spectrum-spacing-100: 8px;
+  --spectrum-spacing-200: 12px;
+  --spectrum-spacing-300: 16px;
+  --spectrum-spacing-400: 24px;
+  --spectrum-spacing-500: 32px;
+  --spectrum-spacing-600: 40px;
+  --spectrum-spacing-700: 48px;
+  --spectrum-spacing-800: 64px;
+  --spectrum-spacing-900: 80px;
+  --spectrum-spacing-1000: 96px;
+  --spectrum-focus-indicator-thickness: 2px;
+  --spectrum-focus-indicator-gap: 2px;
+  --spectrum-border-width-100: 1px;
+  --spectrum-border-width-200: 2px;
+  --spectrum-border-width-400: 4px;
+  --spectrum-field-edge-to-visual-quiet: 0px;
+  --spectrum-side-label-character-count-top-margin-small: 0px;
+  --spectrum-side-label-character-count-top-margin-medium: 0px;
+  --spectrum-side-label-character-count-top-margin-large: 0px;
+  --spectrum-side-label-character-count-top-margin-extra-large: 0px;
+  --spectrum-text-underline-thickness: 1px;
+  --spectrum-text-underline-gap: 1px;
+  --spectrum-component-size-width-ratio-down: 0.3333;
+  --spectrum-component-size-minimum-perspective-down: 24px;
+  --spectrum-component-size-difference-down: -2px;
+  --spectrum-corner-radius-none: var(--undefinedcorner-radius-0);
+  --spectrum-corner-radius-small-default: var(--undefinedcorner-radius-100);
+  --spectrum-corner-radius-medium-default: var(--undefinedcorner-radius-500);
+  --spectrum-corner-radius-large-default: var(--undefinedcorner-radius-700);
+  --spectrum-corner-radius-extra-large-default: var(--undefinedcorner-radius-800);
+  --spectrum-corner-radius-full: var(--undefinedcorner-radius-1000);
+  --spectrum-corner-radius-small-size-small: var(--undefinedcorner-radius-75);
+  --spectrum-corner-radius-small-size-medium: var(--undefinedcorner-radius-100);
+  --spectrum-corner-radius-small-size-large: var(--undefinedcorner-radius-200);
+  --spectrum-corner-radius-small-size-extra-large: var(--undefinedcorner-radius-300);
+  --spectrum-corner-radius-medium-size-extra-small: var(--undefinedcorner-radius-300);
+  --spectrum-corner-radius-medium-size-small: var(--undefinedcorner-radius-400);
+  --spectrum-corner-radius-medium-size-medium: var(--undefinedcorner-radius-500);
+  --spectrum-corner-radius-medium-size-large: var(--undefinedcorner-radius-600);
+  --spectrum-corner-radius-medium-size-extra-large: var(--undefinedcorner-radius-700);
+  --spectrum-drop-shadow-x-100: 0px;
+  --spectrum-drop-shadow-x-200: 0px;
+  --spectrum-drop-shadow-y-100: 1px;
+  --spectrum-drop-shadow-y-200: 2px;
+  --spectrum-drop-shadow-blur-100: 6px;
+  --spectrum-drop-shadow-blur-200: 8px;
+  --spectrum-drop-shadow-emphasized-default-x: var(--undefineddrop-shadow-x-100);
+  --spectrum-drop-shadow-emphasized-default-y: var(--undefineddrop-shadow-y-100);
+  --spectrum-drop-shadow-emphasized-default-blur: var(--undefineddrop-shadow-blur-100);
+  --spectrum-drop-shadow-emphasized-hover-x: var(--undefineddrop-shadow-x-200);
+  --spectrum-drop-shadow-emphasized-hover-y: var(--undefineddrop-shadow-y-200);
+  --spectrum-drop-shadow-emphasized-hover-blur: var(--undefineddrop-shadow-blur-200);
+  --spectrum-drop-shadow-elevated-x: var(--undefineddrop-shadow-x-200);
+  --spectrum-drop-shadow-elevated-y: var(--undefineddrop-shadow-y-200);
+  --spectrum-drop-shadow-elevated-blur: var(--undefineddrop-shadow-blur-200);
 
-    /* desktop tokens */
-    --spectrum-workflow-icon-size-50: 14px; /* original: 14px */
-    --spectrum-workflow-icon-size-75: 16px; /* original: 16px */
-    --spectrum-workflow-icon-size-100: 20px; /* original: 20px */
-    --spectrum-workflow-icon-size-200: 22px; /* original: 22px */
-    --spectrum-workflow-icon-size-300: 26px; /* original: 26px */
-    --spectrum-text-to-visual-50: 5px; /* original: 5px */
-    --spectrum-text-to-visual-75: 5px; /* original: 5px */
-    --spectrum-text-to-visual-100: 6px; /* original: 6px */
-    --spectrum-text-to-visual-200: 7px; /* original: 7px */
-    --spectrum-text-to-visual-300: 8px; /* original: 8px */
-    --spectrum-text-to-visual-400: 9px; /* original: 9px */
-    --spectrum-text-to-control-75: 9px; /* original: 9px */
-    --spectrum-text-to-control-100: 10px; /* original: 10px */
-    --spectrum-text-to-control-200: 11px; /* original: 11px */
-    --spectrum-text-to-control-300: 13px; /* original: 13px */
-    --spectrum-component-height-50: 20px; /* original: 20px */
-    --spectrum-component-height-75: 24px; /* original: 24px */
-    --spectrum-component-height-100: 32px; /* original: 32px */
-    --spectrum-component-height-200: 40px; /* original: 40px */
-    --spectrum-component-height-300: 48px; /* original: 48px */
-    --spectrum-component-height-400: 56px; /* original: 56px */
-    --spectrum-component-height-500: 64px; /* original: 64px */
-    --spectrum-component-pill-edge-to-visual-75: 10px; /* original: 10px */
-    --spectrum-component-pill-edge-to-visual-100: 14px; /* original: 14px */
-    --spectrum-component-pill-edge-to-visual-200: 18px; /* original: 18px */
-    --spectrum-component-pill-edge-to-visual-300: 21px; /* original: 21px */
-    --spectrum-component-pill-edge-to-visual-only-75: 4px; /* original: 4px */
-    --spectrum-component-pill-edge-to-visual-only-100: 6px; /* original: 6px */
-    --spectrum-component-pill-edge-to-visual-only-200: 9px; /* original: 9px */
-    --spectrum-component-pill-edge-to-visual-only-300: 11px; /* original: 11px */
-    --spectrum-component-pill-edge-to-text-75: 12px; /* original: 12px */
-    --spectrum-component-pill-edge-to-text-100: 16px; /* original: 16px */
-    --spectrum-component-pill-edge-to-text-200: 20px; /* original: 20px */
-    --spectrum-component-pill-edge-to-text-300: 24px; /* original: 24px */
-    --spectrum-component-edge-to-visual-50: 6px; /* original: 6px */
-    --spectrum-component-edge-to-visual-75: 7px; /* original: 7px */
-    --spectrum-component-edge-to-visual-100: 10px; /* original: 10px */
-    --spectrum-component-edge-to-visual-200: 13px; /* original: 13px */
-    --spectrum-component-edge-to-visual-300: 15px; /* original: 15px */
-    --spectrum-component-edge-to-visual-only-50: 3px; /* original: 3px */
-    --spectrum-component-edge-to-visual-only-75: 4px; /* original: 4px */
-    --spectrum-component-edge-to-visual-only-100: 6px; /* original: 6px */
-    --spectrum-component-edge-to-visual-only-200: 9px; /* original: 9px */
-    --spectrum-component-edge-to-visual-only-300: 11px; /* original: 11px */
-    --spectrum-component-edge-to-text-50: 8px; /* original: 8px */
-    --spectrum-component-edge-to-text-75: 9px; /* original: 9px */
-    --spectrum-component-edge-to-text-100: 12px; /* original: 12px */
-    --spectrum-component-edge-to-text-200: 15px; /* original: 15px */
-    --spectrum-component-edge-to-text-300: 18px; /* original: 18px */
-    --spectrum-component-top-to-workflow-icon-50: 3px; /* original: 3px */
-    --spectrum-component-top-to-workflow-icon-75: 4px; /* original: 4px */
-    --spectrum-component-top-to-workflow-icon-100: 6px; /* original: 6px */
-    --spectrum-component-top-to-workflow-icon-200: 9px; /* original: 9px */
-    --spectrum-component-top-to-workflow-icon-300: 11px; /* original: 11px */
-    --spectrum-component-top-to-text-50: 3px; /* original: 3px */
-    --spectrum-component-top-to-text-75: 4px; /* original: 4px */
-    --spectrum-component-top-to-text-100: 6px; /* original: 6px */
-    --spectrum-component-top-to-text-200: 9px; /* original: 9px */
-    --spectrum-component-top-to-text-300: 12px; /* original: 12px */
-    --spectrum-component-bottom-to-text-50: 3px; /* original: 3px */
-    --spectrum-component-bottom-to-text-75: 5px; /* original: 5px */
-    --spectrum-component-bottom-to-text-100: 9px; /* original: 9px */
-    --spectrum-component-bottom-to-text-200: 11px; /* original: 11px */
-    --spectrum-component-bottom-to-text-300: 14px; /* original: 14px */
-    --spectrum-component-to-menu-small: 6px; /* original: 6px */
-    --spectrum-component-to-menu-medium: 6px; /* original: 6px */
-    --spectrum-component-to-menu-large: 7px; /* original: 7px */
-    --spectrum-component-to-menu-extra-large: 8px; /* original: 8px */
-    --spectrum-field-edge-to-disclosure-icon-75: 7px; /* original: 7px */
-    --spectrum-field-edge-to-disclosure-icon-100: 11px; /* original: 11px */
-    --spectrum-field-edge-to-disclosure-icon-200: 14px; /* original: 14px */
-    --spectrum-field-edge-to-disclosure-icon-300: 17px; /* original: 17px */
-    --spectrum-field-end-edge-to-disclosure-icon-75: 7px; /* original: 7px */
-    --spectrum-field-end-edge-to-disclosure-icon-100: 11px; /* original: 11px */
-    --spectrum-field-end-edge-to-disclosure-icon-200: 14px; /* original: 14px */
-    --spectrum-field-end-edge-to-disclosure-icon-300: 17px; /* original: 17px */
-    --spectrum-field-top-to-disclosure-icon-75: 7px; /* original: 7px */
-    --spectrum-field-top-to-disclosure-icon-100: 11px; /* original: 11px */
-    --spectrum-field-top-to-disclosure-icon-200: 14px; /* original: 14px */
-    --spectrum-field-top-to-disclosure-icon-300: 17px; /* original: 17px */
-    --spectrum-field-top-to-alert-icon-small: 4px; /* original: 4px */
-    --spectrum-field-top-to-alert-icon-medium: 7px; /* original: 7px */
-    --spectrum-field-top-to-alert-icon-large: 10px; /* original: 10px */
-    --spectrum-field-top-to-alert-icon-extra-large: 13px; /* original: 13px */
-    --spectrum-field-top-to-validation-icon-small: 7px; /* original: 7px */
-    --spectrum-field-top-to-validation-icon-medium: 11px; /* original: 11px */
-    --spectrum-field-top-to-validation-icon-large: 14px; /* original: 14px */
-    --spectrum-field-top-to-validation-icon-extra-large: 17px; /* original: 17px */
-    --spectrum-field-top-to-progress-circle-small: 4px; /* original: 4px */
-    --spectrum-field-top-to-progress-circle-medium: 6px; /* original: 6px */
-    --spectrum-field-top-to-progress-circle-large: 9px; /* original: 9px */
-    --spectrum-field-top-to-progress-circle-extra-large: 11px; /* original: 11px */
-    --spectrum-field-edge-to-alert-icon-small: 9px; /* original: 9px */
-    --spectrum-field-edge-to-alert-icon-medium: 12px; /* original: 12px */
-    --spectrum-field-edge-to-alert-icon-large: 15px; /* original: 15px */
-    --spectrum-field-edge-to-alert-icon-extra-large: 18px; /* original: 18px */
-    --spectrum-field-edge-to-validation-icon-small: 9px; /* original: 9px */
-    --spectrum-field-edge-to-validation-icon-medium: 12px; /* original: 12px */
-    --spectrum-field-edge-to-validation-icon-large: 15px; /* original: 15px */
-    --spectrum-field-edge-to-validation-icon-extra-large: 18px; /* original: 18px */
-    --spectrum-field-text-to-alert-icon-small: 8px; /* original: 8px */
-    --spectrum-field-text-to-alert-icon-medium: 12px; /* original: 12px */
-    --spectrum-field-text-to-alert-icon-large: 15px; /* original: 15px */
-    --spectrum-field-text-to-alert-icon-extra-large: 18px; /* original: 18px */
-    --spectrum-field-text-to-validation-icon-small: 8px; /* original: 8px */
-    --spectrum-field-text-to-validation-icon-medium: 12px; /* original: 12px */
-    --spectrum-field-text-to-validation-icon-large: 15px; /* original: 15px */
-    --spectrum-field-text-to-validation-icon-extra-large: 18px; /* original: 18px */
-    --spectrum-field-width: var(--undefinedfield-width-small); /* original: {field-width-small} */
-    --spectrum-character-count-to-field-quiet-small: -3px; /* original: -3px */
-    --spectrum-character-count-to-field-quiet-medium: -3px; /* original: -3px */
-    --spectrum-character-count-to-field-quiet-large: -3px; /* original: -3px */
-    --spectrum-character-count-to-field-quiet-extra-large: -4px; /* original: -4px */
-    --spectrum-side-label-character-count-to-field: 12px; /* original: 12px */
-    --spectrum-disclosure-indicator-top-to-disclosure-icon-small: 7px; /* original: 7px */
-    --spectrum-disclosure-indicator-top-to-disclosure-icon-medium: 11px; /* original: 11px */
-    --spectrum-disclosure-indicator-top-to-disclosure-icon-large: 14px; /* original: 14px */
-    --spectrum-disclosure-indicator-top-to-disclosure-icon-extra-large: 17px; /* original: 17px */
-    --spectrum-navigational-indicator-top-to-back-icon-small: 6px; /* original: 6px */
-    --spectrum-navigational-indicator-top-to-back-icon-medium: 9px; /* original: 9px */
-    --spectrum-navigational-indicator-top-to-back-icon-large: 12px; /* original: 12px */
-    --spectrum-navigational-indicator-top-to-back-icon-extra-large: 15px; /* original: 15px */
-    --spectrum-color-control-track-width: 24px; /* original: 24px */
-    --spectrum-corner-triangle-icon-size-75: 5px; /* original: 5px */
-    --spectrum-corner-triangle-icon-size-100: 5px; /* original: 5px */
-    --spectrum-corner-triangle-icon-size-200: 6px; /* original: 6px */
-    --spectrum-corner-triangle-icon-size-300: 7px; /* original: 7px */
-  }
+  /* desktop tokens */
+  --spectrum-workflow-icon-size-50: 14px; /* original: 14px */
+  --spectrum-workflow-icon-size-75: 16px; /* original: 16px */
+  --spectrum-workflow-icon-size-100: 20px; /* original: 20px */
+  --spectrum-workflow-icon-size-200: 22px; /* original: 22px */
+  --spectrum-workflow-icon-size-300: 26px; /* original: 26px */
+  --spectrum-text-to-visual-50: 5px; /* original: 5px */
+  --spectrum-text-to-visual-75: 5px; /* original: 5px */
+  --spectrum-text-to-visual-100: 6px; /* original: 6px */
+  --spectrum-text-to-visual-200: 7px; /* original: 7px */
+  --spectrum-text-to-visual-300: 8px; /* original: 8px */
+  --spectrum-text-to-visual-400: 9px; /* original: 9px */
+  --spectrum-text-to-control-75: 9px; /* original: 9px */
+  --spectrum-text-to-control-100: 10px; /* original: 10px */
+  --spectrum-text-to-control-200: 11px; /* original: 11px */
+  --spectrum-text-to-control-300: 13px; /* original: 13px */
+  --spectrum-component-height-50: 20px; /* original: 20px */
+  --spectrum-component-height-75: 24px; /* original: 24px */
+  --spectrum-component-height-100: 32px; /* original: 32px */
+  --spectrum-component-height-200: 40px; /* original: 40px */
+  --spectrum-component-height-300: 48px; /* original: 48px */
+  --spectrum-component-height-400: 56px; /* original: 56px */
+  --spectrum-component-height-500: 64px; /* original: 64px */
+  --spectrum-component-pill-edge-to-visual-75: 10px; /* original: 10px */
+  --spectrum-component-pill-edge-to-visual-100: 14px; /* original: 14px */
+  --spectrum-component-pill-edge-to-visual-200: 18px; /* original: 18px */
+  --spectrum-component-pill-edge-to-visual-300: 21px; /* original: 21px */
+  --spectrum-component-pill-edge-to-visual-only-75: 4px; /* original: 4px */
+  --spectrum-component-pill-edge-to-visual-only-100: 6px; /* original: 6px */
+  --spectrum-component-pill-edge-to-visual-only-200: 9px; /* original: 9px */
+  --spectrum-component-pill-edge-to-visual-only-300: 11px; /* original: 11px */
+  --spectrum-component-pill-edge-to-text-75: 12px; /* original: 12px */
+  --spectrum-component-pill-edge-to-text-100: 16px; /* original: 16px */
+  --spectrum-component-pill-edge-to-text-200: 20px; /* original: 20px */
+  --spectrum-component-pill-edge-to-text-300: 24px; /* original: 24px */
+  --spectrum-component-edge-to-visual-50: 6px; /* original: 6px */
+  --spectrum-component-edge-to-visual-75: 7px; /* original: 7px */
+  --spectrum-component-edge-to-visual-100: 10px; /* original: 10px */
+  --spectrum-component-edge-to-visual-200: 13px; /* original: 13px */
+  --spectrum-component-edge-to-visual-300: 15px; /* original: 15px */
+  --spectrum-component-edge-to-visual-only-50: 3px; /* original: 3px */
+  --spectrum-component-edge-to-visual-only-75: 4px; /* original: 4px */
+  --spectrum-component-edge-to-visual-only-100: 6px; /* original: 6px */
+  --spectrum-component-edge-to-visual-only-200: 9px; /* original: 9px */
+  --spectrum-component-edge-to-visual-only-300: 11px; /* original: 11px */
+  --spectrum-component-edge-to-text-50: 8px; /* original: 8px */
+  --spectrum-component-edge-to-text-75: 9px; /* original: 9px */
+  --spectrum-component-edge-to-text-100: 12px; /* original: 12px */
+  --spectrum-component-edge-to-text-200: 15px; /* original: 15px */
+  --spectrum-component-edge-to-text-300: 18px; /* original: 18px */
+  --spectrum-component-top-to-workflow-icon-50: 3px; /* original: 3px */
+  --spectrum-component-top-to-workflow-icon-75: 4px; /* original: 4px */
+  --spectrum-component-top-to-workflow-icon-100: 6px; /* original: 6px */
+  --spectrum-component-top-to-workflow-icon-200: 9px; /* original: 9px */
+  --spectrum-component-top-to-workflow-icon-300: 11px; /* original: 11px */
+  --spectrum-component-top-to-text-50: 3px; /* original: 3px */
+  --spectrum-component-top-to-text-75: 4px; /* original: 4px */
+  --spectrum-component-top-to-text-100: 6px; /* original: 6px */
+  --spectrum-component-top-to-text-200: 9px; /* original: 9px */
+  --spectrum-component-top-to-text-300: 12px; /* original: 12px */
+  --spectrum-component-bottom-to-text-50: 3px; /* original: 3px */
+  --spectrum-component-bottom-to-text-75: 5px; /* original: 5px */
+  --spectrum-component-bottom-to-text-100: 9px; /* original: 9px */
+  --spectrum-component-bottom-to-text-200: 11px; /* original: 11px */
+  --spectrum-component-bottom-to-text-300: 14px; /* original: 14px */
+  --spectrum-component-to-menu-small: 6px; /* original: 6px */
+  --spectrum-component-to-menu-medium: 6px; /* original: 6px */
+  --spectrum-component-to-menu-large: 7px; /* original: 7px */
+  --spectrum-component-to-menu-extra-large: 8px; /* original: 8px */
+  --spectrum-field-edge-to-disclosure-icon-75: 7px; /* original: 7px */
+  --spectrum-field-edge-to-disclosure-icon-100: 11px; /* original: 11px */
+  --spectrum-field-edge-to-disclosure-icon-200: 14px; /* original: 14px */
+  --spectrum-field-edge-to-disclosure-icon-300: 17px; /* original: 17px */
+  --spectrum-field-end-edge-to-disclosure-icon-75: 7px; /* original: 7px */
+  --spectrum-field-end-edge-to-disclosure-icon-100: 11px; /* original: 11px */
+  --spectrum-field-end-edge-to-disclosure-icon-200: 14px; /* original: 14px */
+  --spectrum-field-end-edge-to-disclosure-icon-300: 17px; /* original: 17px */
+  --spectrum-field-top-to-disclosure-icon-75: 7px; /* original: 7px */
+  --spectrum-field-top-to-disclosure-icon-100: 11px; /* original: 11px */
+  --spectrum-field-top-to-disclosure-icon-200: 14px; /* original: 14px */
+  --spectrum-field-top-to-disclosure-icon-300: 17px; /* original: 17px */
+  --spectrum-field-top-to-alert-icon-small: 4px; /* original: 4px */
+  --spectrum-field-top-to-alert-icon-medium: 7px; /* original: 7px */
+  --spectrum-field-top-to-alert-icon-large: 10px; /* original: 10px */
+  --spectrum-field-top-to-alert-icon-extra-large: 13px; /* original: 13px */
+  --spectrum-field-top-to-validation-icon-small: 7px; /* original: 7px */
+  --spectrum-field-top-to-validation-icon-medium: 11px; /* original: 11px */
+  --spectrum-field-top-to-validation-icon-large: 14px; /* original: 14px */
+  --spectrum-field-top-to-validation-icon-extra-large: 17px; /* original: 17px */
+  --spectrum-field-top-to-progress-circle-small: 4px; /* original: 4px */
+  --spectrum-field-top-to-progress-circle-medium: 6px; /* original: 6px */
+  --spectrum-field-top-to-progress-circle-large: 9px; /* original: 9px */
+  --spectrum-field-top-to-progress-circle-extra-large: 11px; /* original: 11px */
+  --spectrum-field-edge-to-alert-icon-small: 9px; /* original: 9px */
+  --spectrum-field-edge-to-alert-icon-medium: 12px; /* original: 12px */
+  --spectrum-field-edge-to-alert-icon-large: 15px; /* original: 15px */
+  --spectrum-field-edge-to-alert-icon-extra-large: 18px; /* original: 18px */
+  --spectrum-field-edge-to-validation-icon-small: 9px; /* original: 9px */
+  --spectrum-field-edge-to-validation-icon-medium: 12px; /* original: 12px */
+  --spectrum-field-edge-to-validation-icon-large: 15px; /* original: 15px */
+  --spectrum-field-edge-to-validation-icon-extra-large: 18px; /* original: 18px */
+  --spectrum-field-text-to-alert-icon-small: 8px; /* original: 8px */
+  --spectrum-field-text-to-alert-icon-medium: 12px; /* original: 12px */
+  --spectrum-field-text-to-alert-icon-large: 15px; /* original: 15px */
+  --spectrum-field-text-to-alert-icon-extra-large: 18px; /* original: 18px */
+  --spectrum-field-text-to-validation-icon-small: 8px; /* original: 8px */
+  --spectrum-field-text-to-validation-icon-medium: 12px; /* original: 12px */
+  --spectrum-field-text-to-validation-icon-large: 15px; /* original: 15px */
+  --spectrum-field-text-to-validation-icon-extra-large: 18px; /* original: 18px */
+  --spectrum-field-width: var(--undefinedfield-width-small); /* original: {field-width-small} */
+  --spectrum-character-count-to-field-quiet-small: -3px; /* original: -3px */
+  --spectrum-character-count-to-field-quiet-medium: -3px; /* original: -3px */
+  --spectrum-character-count-to-field-quiet-large: -3px; /* original: -3px */
+  --spectrum-character-count-to-field-quiet-extra-large: -4px; /* original: -4px */
+  --spectrum-side-label-character-count-to-field: 12px; /* original: 12px */
+  --spectrum-disclosure-indicator-top-to-disclosure-icon-small: 7px; /* original: 7px */
+  --spectrum-disclosure-indicator-top-to-disclosure-icon-medium: 11px; /* original: 11px */
+  --spectrum-disclosure-indicator-top-to-disclosure-icon-large: 14px; /* original: 14px */
+  --spectrum-disclosure-indicator-top-to-disclosure-icon-extra-large: 17px; /* original: 17px */
+  --spectrum-navigational-indicator-top-to-back-icon-small: 6px; /* original: 6px */
+  --spectrum-navigational-indicator-top-to-back-icon-medium: 9px; /* original: 9px */
+  --spectrum-navigational-indicator-top-to-back-icon-large: 12px; /* original: 12px */
+  --spectrum-navigational-indicator-top-to-back-icon-extra-large: 15px; /* original: 15px */
+  --spectrum-color-control-track-width: 24px; /* original: 24px */
+  --spectrum-corner-triangle-icon-size-75: 5px; /* original: 5px */
+  --spectrum-corner-triangle-icon-size-100: 5px; /* original: 5px */
+  --spectrum-corner-triangle-icon-size-200: 6px; /* original: 6px */
+  --spectrum-corner-triangle-icon-size-300: 7px; /* original: 7px */
+}
 
-  .mobile {
-    --spectrum-workflow-icon-size-50: 16px; /* original: 16px */
-    --spectrum-workflow-icon-size-75: 18px; /* original: 18px */
-    --spectrum-workflow-icon-size-100: 24px; /* original: 24px */
-    --spectrum-workflow-icon-size-200: 28px; /* original: 28px */
-    --spectrum-workflow-icon-size-300: 30px; /* original: 30px */
-    --spectrum-text-to-visual-50: 7px; /* original: 7px */
-    --spectrum-text-to-visual-75: 7px; /* original: 7px */
-    --spectrum-text-to-visual-100: 8px; /* original: 8px */
-    --spectrum-text-to-visual-200: 9px; /* original: 9px */
-    --spectrum-text-to-visual-300: 10px; /* original: 10px */
-    --spectrum-text-to-visual-400: 11px; /* original: 11px */
-    --spectrum-text-to-control-75: 11px; /* original: 11px */
-    --spectrum-text-to-control-100: 13px; /* original: 13px */
-    --spectrum-text-to-control-200: 14px; /* original: 14px */
-    --spectrum-text-to-control-300: 16px; /* original: 16px */
-    --spectrum-component-height-50: 26px; /* original: 26px */
-    --spectrum-component-height-75: 30px; /* original: 30px */
-    --spectrum-component-height-100: 40px; /* original: 40px */
-    --spectrum-component-height-200: 50px; /* original: 50px */
-    --spectrum-component-height-300: 60px; /* original: 60px */
-    --spectrum-component-height-400: 70px; /* original: 70px */
-    --spectrum-component-height-500: 80px; /* original: 80px */
-    --spectrum-component-pill-edge-to-visual-75: 13px; /* original: 13px */
-    --spectrum-component-pill-edge-to-visual-100: 17px; /* original: 17px */
-    --spectrum-component-pill-edge-to-visual-200: 22px; /* original: 22px */
-    --spectrum-component-pill-edge-to-visual-300: 27px; /* original: 27px */
-    --spectrum-component-pill-edge-to-visual-only-75: 6px; /* original: 6px */
-    --spectrum-component-pill-edge-to-visual-only-100: 8px; /* original: 8px */
-    --spectrum-component-pill-edge-to-visual-only-200: 11px; /* original: 11px */
-    --spectrum-component-pill-edge-to-visual-only-300: 15px; /* original: 15px */
-    --spectrum-component-pill-edge-to-text-75: 15px; /* original: 15px */
-    --spectrum-component-pill-edge-to-text-100: 20px; /* original: 20px */
-    --spectrum-component-pill-edge-to-text-200: 25px; /* original: 25px */
-    --spectrum-component-pill-edge-to-text-300: 30px; /* original: 30px */
-    --spectrum-component-edge-to-visual-50: 7px; /* original: 7px */
-    --spectrum-component-edge-to-visual-75: 9px; /* original: 9px */
-    --spectrum-component-edge-to-visual-100: 12px; /* original: 12px */
-    --spectrum-component-edge-to-visual-200: 16px; /* original: 16px */
-    --spectrum-component-edge-to-visual-300: 19px; /* original: 19px */
-    --spectrum-component-edge-to-visual-only-50: 5px; /* original: 5px */
-    --spectrum-component-edge-to-visual-only-75: 6px; /* original: 6px */
-    --spectrum-component-edge-to-visual-only-100: 8px; /* original: 8px */
-    --spectrum-component-edge-to-visual-only-200: 11px; /* original: 11px */
-    --spectrum-component-edge-to-visual-only-300: 15px; /* original: 15px */
-    --spectrum-component-edge-to-text-50: 10px; /* original: 10px */
-    --spectrum-component-edge-to-text-75: 11px; /* original: 11px */
-    --spectrum-component-edge-to-text-100: 15px; /* original: 15px */
-    --spectrum-component-edge-to-text-200: 19px; /* original: 19px */
-    --spectrum-component-edge-to-text-300: 22px; /* original: 22px */
-    --spectrum-component-top-to-workflow-icon-50: 5px; /* original: 5px */
-    --spectrum-component-top-to-workflow-icon-75: 6px; /* original: 6px */
-    --spectrum-component-top-to-workflow-icon-100: 8px; /* original: 8px */
-    --spectrum-component-top-to-workflow-icon-200: 11px; /* original: 11px */
-    --spectrum-component-top-to-workflow-icon-300: 15px; /* original: 15px */
-    --spectrum-component-top-to-text-50: 4px; /* original: 4px */
-    --spectrum-component-top-to-text-75: 5px; /* original: 5px */
-    --spectrum-component-top-to-text-100: 8px; /* original: 8px */
-    --spectrum-component-top-to-text-200: 12px; /* original: 12px */
-    --spectrum-component-top-to-text-300: 15px; /* original: 15px */
-    --spectrum-component-bottom-to-text-50: 6px; /* original: 6px */
-    --spectrum-component-bottom-to-text-75: 6px; /* original: 6px */
-    --spectrum-component-bottom-to-text-100: 11px; /* original: 11px */
-    --spectrum-component-bottom-to-text-200: 14px; /* original: 14px */
-    --spectrum-component-bottom-to-text-300: 18px; /* original: 18px */
-    --spectrum-component-to-menu-small: 7px; /* original: 7px */
-    --spectrum-component-to-menu-medium: 8px; /* original: 8px */
-    --spectrum-component-to-menu-large: 9px; /* original: 9px */
-    --spectrum-component-to-menu-extra-large: 10px; /* original: 10px */
-    --spectrum-field-edge-to-disclosure-icon-75: 9px; /* original: 9px */
-    --spectrum-field-edge-to-disclosure-icon-100: 13px; /* original: 13px */
-    --spectrum-field-edge-to-disclosure-icon-200: 17px; /* original: 17px */
-    --spectrum-field-edge-to-disclosure-icon-300: 22px; /* original: 22px */
-    --spectrum-field-end-edge-to-disclosure-icon-75: 9px; /* original: 9px */
-    --spectrum-field-end-edge-to-disclosure-icon-100: 13px; /* original: 13px */
-    --spectrum-field-end-edge-to-disclosure-icon-200: 17px; /* original: 17px */
-    --spectrum-field-end-edge-to-disclosure-icon-300: 22px; /* original: 22px */
-    --spectrum-field-top-to-disclosure-icon-75: 9px; /* original: 9px */
-    --spectrum-field-top-to-disclosure-icon-100: 13px; /* original: 13px */
-    --spectrum-field-top-to-disclosure-icon-200: 17px; /* original: 17px */
-    --spectrum-field-top-to-disclosure-icon-300: 22px; /* original: 22px */
-    --spectrum-field-top-to-alert-icon-small: 5px; /* original: 5px */
-    --spectrum-field-top-to-alert-icon-medium: 9px; /* original: 9px */
-    --spectrum-field-top-to-alert-icon-large: 13px; /* original: 13px */
-    --spectrum-field-top-to-alert-icon-extra-large: 16px; /* original: 16px */
-    --spectrum-field-top-to-validation-icon-small: 9px; /* original: 9px */
-    --spectrum-field-top-to-validation-icon-medium: 13px; /* original: 13px */
-    --spectrum-field-top-to-validation-icon-large: 17px; /* original: 17px */
-    --spectrum-field-top-to-validation-icon-extra-large: 22px; /* original: 22px */
-    --spectrum-field-top-to-progress-circle-small: 6px; /* original: 6px */
-    --spectrum-field-top-to-progress-circle-medium: 8px; /* original: 8px */
-    --spectrum-field-top-to-progress-circle-large: 11px; /* original: 11px */
-    --spectrum-field-top-to-progress-circle-extra-large: 15px; /* original: 15px */
-    --spectrum-field-edge-to-alert-icon-small: 11px; /* original: 11px */
-    --spectrum-field-edge-to-alert-icon-medium: 15px; /* original: 15px */
-    --spectrum-field-edge-to-alert-icon-large: 19px; /* original: 19px */
-    --spectrum-field-edge-to-alert-icon-extra-large: 22px; /* original: 22px */
-    --spectrum-field-edge-to-validation-icon-small: 11px; /* original: 11px */
-    --spectrum-field-edge-to-validation-icon-medium: 15px; /* original: 15px */
-    --spectrum-field-edge-to-validation-icon-large: 19px; /* original: 19px */
-    --spectrum-field-edge-to-validation-icon-extra-large: 22px; /* original: 22px */
-    --spectrum-field-text-to-alert-icon-small: 10px; /* original: 10px */
-    --spectrum-field-text-to-alert-icon-medium: 15px; /* original: 15px */
-    --spectrum-field-text-to-alert-icon-large: 19px; /* original: 19px */
-    --spectrum-field-text-to-alert-icon-extra-large: 22px; /* original: 22px */
-    --spectrum-field-text-to-validation-icon-small: 10px; /* original: 10px */
-    --spectrum-field-text-to-validation-icon-medium: 15px; /* original: 15px */
-    --spectrum-field-text-to-validation-icon-large: 19px; /* original: 19px */
-    --spectrum-field-text-to-validation-icon-extra-large: 22px; /* original: 22px */
-    --spectrum-field-width: var(--undefinedfield-width-small); /* original: {field-width-small} */
-    --spectrum-character-count-to-field-quiet-small: -4px; /* original: -4px */
-    --spectrum-character-count-to-field-quiet-medium: -4px; /* original: -4px */
-    --spectrum-character-count-to-field-quiet-large: -4px; /* original: -4px */
-    --spectrum-character-count-to-field-quiet-extra-large: -5px; /* original: -5px */
-    --spectrum-side-label-character-count-to-field: 15px; /* original: 15px */
-    --spectrum-disclosure-indicator-top-to-disclosure-icon-small: 9px; /* original: 9px */
-    --spectrum-disclosure-indicator-top-to-disclosure-icon-medium: 13px; /* original: 13px */
-    --spectrum-disclosure-indicator-top-to-disclosure-icon-large: 17px; /* original: 17px */
-    --spectrum-disclosure-indicator-top-to-disclosure-icon-extra-large: 22px; /* original: 22px */
-    --spectrum-navigational-indicator-top-to-back-icon-small: 7px; /* original: 7px */
-    --spectrum-navigational-indicator-top-to-back-icon-medium: 12px; /* original: 12px */
-    --spectrum-navigational-indicator-top-to-back-icon-large: 16px; /* original: 16px */
-    --spectrum-navigational-indicator-top-to-back-icon-extra-large: 19px; /* original: 19px */
-    --spectrum-color-control-track-width: 30px; /* original: 30px */
-    --spectrum-corner-triangle-icon-size-75: 6px; /* original: 6px */
-    --spectrum-corner-triangle-icon-size-100: 7px; /* original: 7px */
-    --spectrum-corner-triangle-icon-size-200: 8px; /* original: 8px */
-    --spectrum-corner-triangle-icon-size-300: 8px; /* original: 8px */
-  }
+.mobile {
+  --spectrum-workflow-icon-size-50: 16px; /* original: 16px */
+  --spectrum-workflow-icon-size-75: 18px; /* original: 18px */
+  --spectrum-workflow-icon-size-100: 24px; /* original: 24px */
+  --spectrum-workflow-icon-size-200: 28px; /* original: 28px */
+  --spectrum-workflow-icon-size-300: 30px; /* original: 30px */
+  --spectrum-text-to-visual-50: 7px; /* original: 7px */
+  --spectrum-text-to-visual-75: 7px; /* original: 7px */
+  --spectrum-text-to-visual-100: 8px; /* original: 8px */
+  --spectrum-text-to-visual-200: 9px; /* original: 9px */
+  --spectrum-text-to-visual-300: 10px; /* original: 10px */
+  --spectrum-text-to-visual-400: 11px; /* original: 11px */
+  --spectrum-text-to-control-75: 11px; /* original: 11px */
+  --spectrum-text-to-control-100: 13px; /* original: 13px */
+  --spectrum-text-to-control-200: 14px; /* original: 14px */
+  --spectrum-text-to-control-300: 16px; /* original: 16px */
+  --spectrum-component-height-50: 26px; /* original: 26px */
+  --spectrum-component-height-75: 30px; /* original: 30px */
+  --spectrum-component-height-100: 40px; /* original: 40px */
+  --spectrum-component-height-200: 50px; /* original: 50px */
+  --spectrum-component-height-300: 60px; /* original: 60px */
+  --spectrum-component-height-400: 70px; /* original: 70px */
+  --spectrum-component-height-500: 80px; /* original: 80px */
+  --spectrum-component-pill-edge-to-visual-75: 13px; /* original: 13px */
+  --spectrum-component-pill-edge-to-visual-100: 17px; /* original: 17px */
+  --spectrum-component-pill-edge-to-visual-200: 22px; /* original: 22px */
+  --spectrum-component-pill-edge-to-visual-300: 27px; /* original: 27px */
+  --spectrum-component-pill-edge-to-visual-only-75: 6px; /* original: 6px */
+  --spectrum-component-pill-edge-to-visual-only-100: 8px; /* original: 8px */
+  --spectrum-component-pill-edge-to-visual-only-200: 11px; /* original: 11px */
+  --spectrum-component-pill-edge-to-visual-only-300: 15px; /* original: 15px */
+  --spectrum-component-pill-edge-to-text-75: 15px; /* original: 15px */
+  --spectrum-component-pill-edge-to-text-100: 20px; /* original: 20px */
+  --spectrum-component-pill-edge-to-text-200: 25px; /* original: 25px */
+  --spectrum-component-pill-edge-to-text-300: 30px; /* original: 30px */
+  --spectrum-component-edge-to-visual-50: 7px; /* original: 7px */
+  --spectrum-component-edge-to-visual-75: 9px; /* original: 9px */
+  --spectrum-component-edge-to-visual-100: 12px; /* original: 12px */
+  --spectrum-component-edge-to-visual-200: 16px; /* original: 16px */
+  --spectrum-component-edge-to-visual-300: 19px; /* original: 19px */
+  --spectrum-component-edge-to-visual-only-50: 5px; /* original: 5px */
+  --spectrum-component-edge-to-visual-only-75: 6px; /* original: 6px */
+  --spectrum-component-edge-to-visual-only-100: 8px; /* original: 8px */
+  --spectrum-component-edge-to-visual-only-200: 11px; /* original: 11px */
+  --spectrum-component-edge-to-visual-only-300: 15px; /* original: 15px */
+  --spectrum-component-edge-to-text-50: 10px; /* original: 10px */
+  --spectrum-component-edge-to-text-75: 11px; /* original: 11px */
+  --spectrum-component-edge-to-text-100: 15px; /* original: 15px */
+  --spectrum-component-edge-to-text-200: 19px; /* original: 19px */
+  --spectrum-component-edge-to-text-300: 22px; /* original: 22px */
+  --spectrum-component-top-to-workflow-icon-50: 5px; /* original: 5px */
+  --spectrum-component-top-to-workflow-icon-75: 6px; /* original: 6px */
+  --spectrum-component-top-to-workflow-icon-100: 8px; /* original: 8px */
+  --spectrum-component-top-to-workflow-icon-200: 11px; /* original: 11px */
+  --spectrum-component-top-to-workflow-icon-300: 15px; /* original: 15px */
+  --spectrum-component-top-to-text-50: 4px; /* original: 4px */
+  --spectrum-component-top-to-text-75: 5px; /* original: 5px */
+  --spectrum-component-top-to-text-100: 8px; /* original: 8px */
+  --spectrum-component-top-to-text-200: 12px; /* original: 12px */
+  --spectrum-component-top-to-text-300: 15px; /* original: 15px */
+  --spectrum-component-bottom-to-text-50: 6px; /* original: 6px */
+  --spectrum-component-bottom-to-text-75: 6px; /* original: 6px */
+  --spectrum-component-bottom-to-text-100: 11px; /* original: 11px */
+  --spectrum-component-bottom-to-text-200: 14px; /* original: 14px */
+  --spectrum-component-bottom-to-text-300: 18px; /* original: 18px */
+  --spectrum-component-to-menu-small: 7px; /* original: 7px */
+  --spectrum-component-to-menu-medium: 8px; /* original: 8px */
+  --spectrum-component-to-menu-large: 9px; /* original: 9px */
+  --spectrum-component-to-menu-extra-large: 10px; /* original: 10px */
+  --spectrum-field-edge-to-disclosure-icon-75: 9px; /* original: 9px */
+  --spectrum-field-edge-to-disclosure-icon-100: 13px; /* original: 13px */
+  --spectrum-field-edge-to-disclosure-icon-200: 17px; /* original: 17px */
+  --spectrum-field-edge-to-disclosure-icon-300: 22px; /* original: 22px */
+  --spectrum-field-end-edge-to-disclosure-icon-75: 9px; /* original: 9px */
+  --spectrum-field-end-edge-to-disclosure-icon-100: 13px; /* original: 13px */
+  --spectrum-field-end-edge-to-disclosure-icon-200: 17px; /* original: 17px */
+  --spectrum-field-end-edge-to-disclosure-icon-300: 22px; /* original: 22px */
+  --spectrum-field-top-to-disclosure-icon-75: 9px; /* original: 9px */
+  --spectrum-field-top-to-disclosure-icon-100: 13px; /* original: 13px */
+  --spectrum-field-top-to-disclosure-icon-200: 17px; /* original: 17px */
+  --spectrum-field-top-to-disclosure-icon-300: 22px; /* original: 22px */
+  --spectrum-field-top-to-alert-icon-small: 5px; /* original: 5px */
+  --spectrum-field-top-to-alert-icon-medium: 9px; /* original: 9px */
+  --spectrum-field-top-to-alert-icon-large: 13px; /* original: 13px */
+  --spectrum-field-top-to-alert-icon-extra-large: 16px; /* original: 16px */
+  --spectrum-field-top-to-validation-icon-small: 9px; /* original: 9px */
+  --spectrum-field-top-to-validation-icon-medium: 13px; /* original: 13px */
+  --spectrum-field-top-to-validation-icon-large: 17px; /* original: 17px */
+  --spectrum-field-top-to-validation-icon-extra-large: 22px; /* original: 22px */
+  --spectrum-field-top-to-progress-circle-small: 6px; /* original: 6px */
+  --spectrum-field-top-to-progress-circle-medium: 8px; /* original: 8px */
+  --spectrum-field-top-to-progress-circle-large: 11px; /* original: 11px */
+  --spectrum-field-top-to-progress-circle-extra-large: 15px; /* original: 15px */
+  --spectrum-field-edge-to-alert-icon-small: 11px; /* original: 11px */
+  --spectrum-field-edge-to-alert-icon-medium: 15px; /* original: 15px */
+  --spectrum-field-edge-to-alert-icon-large: 19px; /* original: 19px */
+  --spectrum-field-edge-to-alert-icon-extra-large: 22px; /* original: 22px */
+  --spectrum-field-edge-to-validation-icon-small: 11px; /* original: 11px */
+  --spectrum-field-edge-to-validation-icon-medium: 15px; /* original: 15px */
+  --spectrum-field-edge-to-validation-icon-large: 19px; /* original: 19px */
+  --spectrum-field-edge-to-validation-icon-extra-large: 22px; /* original: 22px */
+  --spectrum-field-text-to-alert-icon-small: 10px; /* original: 10px */
+  --spectrum-field-text-to-alert-icon-medium: 15px; /* original: 15px */
+  --spectrum-field-text-to-alert-icon-large: 19px; /* original: 19px */
+  --spectrum-field-text-to-alert-icon-extra-large: 22px; /* original: 22px */
+  --spectrum-field-text-to-validation-icon-small: 10px; /* original: 10px */
+  --spectrum-field-text-to-validation-icon-medium: 15px; /* original: 15px */
+  --spectrum-field-text-to-validation-icon-large: 19px; /* original: 19px */
+  --spectrum-field-text-to-validation-icon-extra-large: 22px; /* original: 22px */
+  --spectrum-field-width: var(--undefinedfield-width-small); /* original: {field-width-small} */
+  --spectrum-character-count-to-field-quiet-small: -4px; /* original: -4px */
+  --spectrum-character-count-to-field-quiet-medium: -4px; /* original: -4px */
+  --spectrum-character-count-to-field-quiet-large: -4px; /* original: -4px */
+  --spectrum-character-count-to-field-quiet-extra-large: -5px; /* original: -5px */
+  --spectrum-side-label-character-count-to-field: 15px; /* original: 15px */
+  --spectrum-disclosure-indicator-top-to-disclosure-icon-small: 9px; /* original: 9px */
+  --spectrum-disclosure-indicator-top-to-disclosure-icon-medium: 13px; /* original: 13px */
+  --spectrum-disclosure-indicator-top-to-disclosure-icon-large: 17px; /* original: 17px */
+  --spectrum-disclosure-indicator-top-to-disclosure-icon-extra-large: 22px; /* original: 22px */
+  --spectrum-navigational-indicator-top-to-back-icon-small: 7px; /* original: 7px */
+  --spectrum-navigational-indicator-top-to-back-icon-medium: 12px; /* original: 12px */
+  --spectrum-navigational-indicator-top-to-back-icon-large: 16px; /* original: 16px */
+  --spectrum-navigational-indicator-top-to-back-icon-extra-large: 19px; /* original: 19px */
+  --spectrum-color-control-track-width: 30px; /* original: 30px */
+  --spectrum-corner-triangle-icon-size-75: 6px; /* original: 6px */
+  --spectrum-corner-triangle-icon-size-100: 7px; /* original: 7px */
+  --spectrum-corner-triangle-icon-size-200: 8px; /* original: 8px */
+  --spectrum-corner-triangle-icon-size-300: 8px; /* original: 8px */
 }

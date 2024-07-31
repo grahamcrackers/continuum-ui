@@ -1,6 +1,4 @@
-import { PropsWithChildren } from "react";
 import * as BaseTooltip from "@radix-ui/react-tooltip";
-import { EditIcon } from "@continuum-ui/icons/workflow/18";
 
 type TooltipProps = React.PropsWithChildren & {
     label: string;
