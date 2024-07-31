@@ -1,0 +1,23 @@
+{
+  "mode": "pre",
+  "tag": "next",
+  "initialVersions": {
+    "docs": "0.1.0",
+    "react-example-app": "0.0.0",
+    "@components/storybook": "0.0.0",
+    "tailwindui-syntax": "0.1.0",
+    "web": "0.1.0",
+    "@continuum-ui/eslint-config": "0.0.0",
+    "@continuum-ui/tailwind-config": "0.0.0",
+    "@continuum-ui/typescript-config": "0.0.0",
+    "@continuum-ui/components": "0.2.0",
+    "@continuum-ui/icons": "0.0.1",
+    "@continuum-ui/spectrum": "0.0.1",
+    "@continuum-ui/tokens": "0.0.0",
+    "@continuum-ui/ui": "0.0.0",
+    "@continuum-ui/utils": "0.0.1"
+  },
+  "changesets": [
+    "plenty-years-tease"
+  ]
+}
