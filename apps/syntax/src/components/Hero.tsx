@@ -18,7 +18,8 @@ import { links } from '@/lib/links'
 //   },
 // }`
 const codeLanguage = 'tsx'
-const code = `
+const code = `import { Button } from "@continuum-ui/spectrum";
+
 export function Component({ item }) {
   return (
     <Button>Click Me!</Button>
@@ -58,14 +59,13 @@ export function Hero() {
                         />
                         <div className="relative">
                             <p className="inline bg-gradient-to-r from-indigo-200 via-sky-400 to-indigo-200 bg-clip-text font-display text-5xl tracking-tight text-transparent">
-                                @continuum-ui/components
+                                @continuum-ui
                             </p>
                             <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                                A library of react components in a single
-                                package.
+                                Adobe Spectrum CSS on @radix-ui components
                             </p>
                             <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                                {/* <Button href="/">Get started</Button> */}
+                                <Button href="/">Get started</Button>
                                 <Button href={links.github} variant="secondary">
                                     View on GitHub
                                 </Button>

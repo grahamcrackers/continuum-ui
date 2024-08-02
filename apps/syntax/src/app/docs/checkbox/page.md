@@ -1,8 +1,8 @@
 ---
-title: Predictive data generation
+title: Checkbox guide
 nextjs:
   metadata:
-    title: Predictive data generation
+    title: Checkbox guide
     description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 

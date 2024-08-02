@@ -1,8 +1,8 @@
 ---
-title: Neuralink integration
+title: Tabs guide
 nextjs:
   metadata:
-    title: Neuralink integration
+    title: Tabs guide
     description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 

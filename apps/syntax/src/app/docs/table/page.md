@@ -1,8 +1,8 @@
 ---
-title: CacheAdvance.predict()
+title: Table guide
 nextjs:
   metadata:
-    title: CacheAdvance.predict()
+    title: Table guide
     description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 

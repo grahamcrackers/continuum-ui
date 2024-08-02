@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation'
 import { useEffect, useState } from 'react'
 
 import { Hero } from '@/components/Hero'
-import { Logo, LogoIcon } from '@/components/Logo'
+import { Logo } from '@/components/Logo'
 import { MobileNavigation } from '@/components/MobileNavigation'
 import { Navigation } from '@/components/Navigation'
 import { Search } from '@/components/Search'
@@ -62,7 +62,7 @@ function Header() {
             </div>
             <div className="relative flex flex-grow basis-0 items-center">
                 <Link href="/" aria-label="Home page">
-                    <LogoIcon className="h-9 w-9 lg:hidden" />
+                    {/* <LogoIcon className="h-9 w-9 lg:hidden" /> */}
                     <Logo className="hidden h-9 w-auto fill-slate-700 lg:block dark:fill-sky-100" />
                 </Link>
             </div>

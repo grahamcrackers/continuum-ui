@@ -1,8 +1,8 @@
 ---
-title: Compile-time caching
+title: Input guide
 nextjs:
   metadata:
-    title: Compile-time caching
+    title: Input guide
     description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 

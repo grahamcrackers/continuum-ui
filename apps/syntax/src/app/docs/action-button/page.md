@@ -1,8 +1,8 @@
 ---
-title: CacheAdvance.flush()
+title: Action Button guide
 nextjs:
   metadata:
-    title: CacheAdvance.flush()
+    title: Action Button guide
     description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 

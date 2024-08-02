@@ -1,8 +1,8 @@
 ---
-title: Understanding caching
+title: Divider guide
 nextjs:
   metadata:
-    title: Understanding caching
+    title: Divider guide
     description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 

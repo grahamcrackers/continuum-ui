@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import gcIcon from '@/images/gc-icon.svg'
 import clsx from 'clsx'
 
 function LogomarkPaths() {
@@ -31,7 +30,7 @@ export function Logo1(props: React.ComponentPropsWithoutRef<'svg'>) {
 export function LogoIcon({ className }: { className?: string }) {
     return (
         <Image
-            src={gcIcon}
+            src=""
             alt="logo"
             width={50}
             height={50}
@@ -43,8 +42,8 @@ export function LogoIcon({ className }: { className?: string }) {
 export function Logo({ className }: { className?: string }) {
     return (
         <div className="flex items-center justify-center space-x-2">
-            <LogoIcon />
-            <span className={className}>components</span>
+            {/* <LogoIcon /> */}
+            <span className={className}>continuum-ui</span>
         </div>
     )
 }

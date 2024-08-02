@@ -1,8 +1,8 @@
 ---
-title: Predicting user behavior
+title: Dropdown Menu guide
 nextjs:
   metadata:
-    title: Predicting user behavior
+    title: Dropdown Menu guide
     description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 

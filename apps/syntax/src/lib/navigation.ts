@@ -9,37 +9,76 @@ export const navigation = [
     {
         title: 'Components',
         links: [
+            // {
+            //     title: 'Accordion',
+            //     href: '/docs/accordion',
+            // },
             {
-                title: 'Accordion',
-                href: '/docs/accordion',
+                title: 'Action Button',
+                href: '/docs/action-button',
             },
-            {
-                title: 'Alert',
-                href: '/docs/alert',
-            },
+            // {
+            //     title: 'Alert',
+            //     href: '/docs/alert',
+            // },
             {
                 title: 'Alert Dialog',
                 href: '/docs/alert-dialog',
             },
-            {
-                title: 'Aspect Ratio',
-                href: '/docs/aspect-ratio',
-            },
-            {
-                title: 'Avatar',
-                href: '/docs/avatar',
-            },
-            {
-                title: 'Badge',
-                href: '/docs/badge',
-            },
-            {
-                title: 'Breadcrumb',
-                href: '/docs/breadcrumb',
-            },
+            // {
+            //     title: 'Aspect Ratio',
+            //     href: '/docs/aspect-ratio',
+            // },
+            // {
+            //     title: 'Avatar',
+            //     href: '/docs/avatar',
+            // },
+            // {
+            //     title: 'Badge',
+            //     href: '/docs/badge',
+            // },
+            // {
+            //     title: 'Breadcrumb',
+            //     href: '/docs/breadcrumb',
+            // },
             {
                 title: 'Button',
                 href: '/docs/button',
+            },
+            {
+                title: 'Checkbox',
+                href: '/docs/checkbox',
+            },
+            {
+                title: 'Divider',
+                href: '/docs/divider',
+            },
+            {
+                // spectrum's action menu
+                title: 'Dropdown Menu',
+                href: '/docs/dropdown-menu',
+            },
+            {
+                title: 'Heading',
+                href: '/docs/heading',
+            },
+            {
+                // spectrum's textfield
+                title: 'Input',
+                href: '/docs/input',
+            },
+            {
+                title: 'Table',
+                href: '/docs/table',
+            },
+            {
+                title: 'Tabs',
+                href: '/docs/tabs',
+            },
+            {
+                title: 'Tooltip',
+                href: '/docs/tooltip',
+                disabled: true,
             },
         ],
     },
@@ -81,12 +120,12 @@ export const navigation = [
     //         },
     //     ],
     // },
-    // {
-    //     title: 'Contributing',
-    //     links: [
-    //         { title: 'How to contribute', href: '/docs/how-to-contribute' },
-    //         { title: 'Architecture guide', href: '/docs/architecture-guide' },
-    //         { title: 'Design principles', href: '/docs/design-principles' },
-    //     ],
-    // },
+    {
+        title: 'Contributing',
+        links: [
+            { title: 'How to contribute', href: '/docs/how-to-contribute' },
+            // { title: 'Architecture guide', href: '/docs/architecture-guide' },
+            // { title: 'Design principles', href: '/docs/design-principles' },
+        ],
+    },
 ]
